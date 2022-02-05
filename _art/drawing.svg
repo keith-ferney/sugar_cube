@@ -27,8 +27,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="385.6585"
-     inkscape:cy="-39.667799"
+     inkscape:cx="307.22685"
+     inkscape:cy="-162.69862"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -1556,6 +1556,88 @@
          width="67.733337"
          id="rect6016"
          style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.38277516;stroke:none;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g6040"
+       inkscape:export-filename="/home/sean/code/jams/sugar_cube/images/slime.png"
+       inkscape:export-xdpi="118.154"
+       inkscape:export-ydpi="118.154">
+      <rect
+         style="opacity:1;vector-effect:none;fill:#a5e04f;fill-opacity:1;stroke:none;stroke-width:0.6047619;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect6033"
+         width="16.933332"
+         height="16.933327"
+         x="1.9984014e-15"
+         y="347.79999" />
+      <rect
+         y="350.97498"
+         x="1.0583333"
+         height="12.700006"
+         width="14.816665"
+         id="rect6031"
+         style="opacity:1;vector-effect:none;fill:#6fd52d;fill-opacity:1;stroke:none;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         style="opacity:1;vector-effect:none;fill:#328e27;fill-opacity:1;stroke:none;stroke-width:0.24495624;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect6035"
+         width="14.816666"
+         height="5.2916727"
+         x="1.0583333"
+         y="358.3833" />
+    </g>
+    <g
+       id="g6053"
+       inkscape:export-filename="/home/sean/code/jams/sugar_cube/images/spikes.png"
+       inkscape:export-xdpi="118.154"
+       inkscape:export-ydpi="118.154">
+      <rect
+         y="330.86664"
+         x="0"
+         height="16.933332"
+         width="16.933332"
+         id="rect6046"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         r="4.2333307"
+         cy="339.33331"
+         cx="8.4666662"
+         id="path6042"
+         style="opacity:1;vector-effect:none;fill:#ab3c2f;fill-opacity:1;stroke:none;stroke-width:0.42333308;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         d="m 8.4666664,330.86665 1.2807448,5.37467 4.7060908,-2.89484 -2.894844,4.70609 5.374673,1.28074 -5.374673,1.28075 2.894844,4.70609 -4.706091,-2.89485 -1.280745,5.37468 -1.2807448,-5.37468 -4.7060909,2.89485 2.8948442,-4.70609 L 1.9073486e-6,339.33331 5.3746746,338.05257 l -2.894844,-4.70609 4.7060909,2.89484 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="-1.1780972"
+         sodipodi:arg1="-1.5707963"
+         sodipodi:r2="3.3467476"
+         sodipodi:r1="8.4666639"
+         sodipodi:cy="339.33331"
+         sodipodi:cx="8.4666662"
+         sodipodi:sides="8"
+         id="path6027"
+         style="opacity:1;vector-effect:none;fill:#cc6045;fill-opacity:1;stroke:none;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+      <path
+         sodipodi:type="star"
+         style="opacity:1;vector-effect:none;fill:#c64636;fill-opacity:1;stroke:none;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="path6029"
+         sodipodi:sides="4"
+         sodipodi:cx="8.4666662"
+         sodipodi:cy="339.33331"
+         sodipodi:r1="11.973673"
+         sodipodi:r2="2.3665042"
+         sodipodi:arg1="-0.785398"
+         sodipodi:arg2="-0.083140275"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 16.933333,330.86665 -6.108337,8.27014 6.108334,8.66319 L 8.6631914,341.69164 -4.4165144e-7,347.79998 6.1083363,339.52984 2.3252116e-6,330.86665 8.270141,336.97498 Z" />
+      <circle
+         style="opacity:1;vector-effect:none;fill:#ab3c2f;fill-opacity:1;stroke:none;stroke-width:0.21166639;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="circle6044"
+         cx="9.5249996"
+         cy="340.39166"
+         r="2.1166642" />
     </g>
   </g>
   <g
