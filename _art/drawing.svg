@@ -25,9 +25,9 @@
      borderopacity="1"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="236.17428"
-     inkscape:cy="11.266429"
+     inkscape:zoom="4"
+     inkscape:cx="138.31184"
+     inkscape:cy="-76.365378"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -60,7 +60,10 @@
      transform="translate(0,-280.06665)">
     <g
        id="g4586"
-       transform="translate(0,16.933333)">
+       transform="translate(0,16.933333)"
+       inkscape:export-filename="/home/sean/code/jams/sugar_cube/images/cube.png"
+       inkscape:export-xdpi="118.154"
+       inkscape:export-ydpi="118.154">
       <rect
          y="280.06665"
          x="0"
@@ -86,7 +89,10 @@
     </g>
     <g
        id="g5130"
-       transform="rotate(90,8.4666674,271.59998)">
+       transform="rotate(90,8.4666674,271.59998)"
+       inkscape:export-filename="/home/sean/code/jams/sugar_cube/images/charge.png"
+       inkscape:export-xdpi="118.154"
+       inkscape:export-ydpi="118.154">
       <g
          id="g4625">
         <rect
@@ -652,6 +658,32 @@
            style="opacity:1;vector-effect:none;fill:#e4f0fb;fill-opacity:1;stroke:none;stroke-width:0.4456448;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            sodipodi:type="star" />
       </g>
+    </g>
+    <g
+       id="g5144"
+       transform="translate(-1.8241146,43.640212)"
+       inkscape:export-filename="/home/sean/code/jams/sugar_cube/images/pointer.png"
+       inkscape:export-xdpi="118.154"
+       inkscape:export-ydpi="118.154">
+      <path
+         sodipodi:nodetypes="ssscs"
+         inkscape:connector-curvature="0"
+         id="path5132"
+         d="m 8.7398674,275.57831 c -2.3e-6,1.44296 -1.1697535,2.61271 -2.612714,2.61271 -1.4429606,0 -2.6127118,-1.16975 -2.6127141,-2.61271 -3.3e-6,-1.44296 2.645787,-4.5971 2.645787,-4.5971 0,0 2.5796444,3.15414 2.5796411,4.5971 z"
+         style="opacity:1;vector-effect:none;fill:#b8cef0;fill-opacity:1;stroke:none;stroke-width:0.26158839;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="270.29309"
+         x="1.8241146"
+         height="8.4666672"
+         width="8.4666672"
+         id="rect5136"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.5291667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <circle
+         r="1.4552084"
+         cy="276.29633"
+         cx="6.1184897"
+         id="path5139"
+         style="opacity:1;vector-effect:none;fill:#e4f0fb;fill-opacity:1;stroke:none;stroke-width:0.38805556;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
   </g>
 </svg>
