@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Cup.png-e7a297d5eb13466a1af9e7a530e6301c.stex"
+path="res://.import/AutoTemplate_64x64.png-2e4805374dd0af2dff2a9a90e4ac0f56.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/Cup.png"
-dest_files=[ "res://.import/Cup.png-e7a297d5eb13466a1af9e7a530e6301c.stex" ]
+source_file="res://images/AutoTemplate_64x64.png"
+dest_files=[ "res://.import/AutoTemplate_64x64.png-2e4805374dd0af2dff2a9a90e4ac0f56.stex" ]
 
 [params]
 
@@ -28,10 +28,7 @@ process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 process/invert_color=false
-<<<<<<< HEAD
 process/normal_map_invert_y=false
-=======
->>>>>>> origin/level
 stream=false
 size_limit=0
 detect_3d=true
