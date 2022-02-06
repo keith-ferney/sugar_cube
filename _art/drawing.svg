@@ -27,8 +27,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="307.22685"
-     inkscape:cy="-162.69862"
+     inkscape:cx="308.33608"
+     inkscape:cy="-163.15656"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -77,8 +77,8 @@
        id="g4586"
        transform="translate(0,16.933333)"
        inkscape:export-filename="/home/sean/code/jams/sugar_cube/images/cube.png"
-       inkscape:export-xdpi="118.154"
-       inkscape:export-ydpi="118.154">
+       inkscape:export-xdpi="95.999992"
+       inkscape:export-ydpi="95.999992">
       <rect
          y="280.06665"
          x="0"
@@ -106,8 +106,8 @@
        id="g5130"
        transform="rotate(90,8.4666674,271.59998)"
        inkscape:export-filename="/home/sean/code/jams/sugar_cube/images/charge.png"
-       inkscape:export-xdpi="118.154"
-       inkscape:export-ydpi="118.154">
+       inkscape:export-xdpi="95.999992"
+       inkscape:export-ydpi="95.999992">
       <g
          id="g4625">
         <rect
@@ -678,8 +678,8 @@
        id="g5144"
        transform="translate(-1.8241146,43.640212)"
        inkscape:export-filename="/home/sean/code/jams/sugar_cube/images/pointer.png"
-       inkscape:export-xdpi="118.154"
-       inkscape:export-ydpi="118.154">
+       inkscape:export-xdpi="95.999992"
+       inkscape:export-ydpi="95.999992">
       <path
          sodipodi:nodetypes="ssscs"
          inkscape:connector-curvature="0"
@@ -704,8 +704,8 @@
        id="g5987"
        transform="translate(6.0788086e-6,1.4017578e-5)"
        inkscape:export-filename="/home/sean/code/jams/sugar_cube/images/Ground.png"
-       inkscape:export-xdpi="118.154"
-       inkscape:export-ydpi="118.154">
+       inkscape:export-xdpi="95.999992"
+       inkscape:export-ydpi="95.999992">
       <rect
          y="313.93332"
          x="33.866665"
@@ -1510,8 +1510,8 @@
     <g
        id="g6025"
        inkscape:export-filename="/home/sean/code/jams/sugar_cube/images/Cup.png"
-       inkscape:export-xdpi="118.154"
-       inkscape:export-ydpi="118.154">
+       inkscape:export-xdpi="95.999992"
+       inkscape:export-ydpi="95.999992">
       <path
          sodipodi:nodetypes="cccscsccc"
          inkscape:connector-curvature="0"
@@ -1560,8 +1560,8 @@
     <g
        id="g6040"
        inkscape:export-filename="/home/sean/code/jams/sugar_cube/images/slime.png"
-       inkscape:export-xdpi="118.154"
-       inkscape:export-ydpi="118.154">
+       inkscape:export-xdpi="96.000008"
+       inkscape:export-ydpi="96.000008">
       <rect
          style="opacity:1;vector-effect:none;fill:#a5e04f;fill-opacity:1;stroke:none;stroke-width:0.6047619;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="rect6033"
@@ -1587,8 +1587,8 @@
     <g
        id="g6053"
        inkscape:export-filename="/home/sean/code/jams/sugar_cube/images/spikes.png"
-       inkscape:export-xdpi="118.154"
-       inkscape:export-ydpi="118.154">
+       inkscape:export-xdpi="96.000008"
+       inkscape:export-ydpi="96.000008">
       <rect
          y="330.86664"
          x="0"
