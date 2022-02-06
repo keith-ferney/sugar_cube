@@ -4,7 +4,6 @@
 [ext_resource path="res://app/player.gd" type="Script" id=2]
 [ext_resource path="res://images/pointer.png" type="Texture" id=3]
 [ext_resource path="res://images/charge.png" type="Texture" id=4]
-
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 32, 32 )
 
