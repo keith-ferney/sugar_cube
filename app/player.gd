@@ -5,7 +5,7 @@ extends RigidBody2D
 # var a = 2
 # var b = "text"
 var charge = 0
-var limit = 160
+var limit = 200
 var limit_divisor = limit/2
 var multiplier = 2
 var rotation_dirs = ["left", "right"]
@@ -28,6 +28,8 @@ func _physics_process(delta):
 		else:
 			rotation_dir = rotation_dirs[1] 
 	if Input.is_action_pressed("ui_down"):
+
+		self.set_linear_velocity(Vector2(0,0))
 		pointer.show()
 		chargeSprite.show()
 		if charge < limit:

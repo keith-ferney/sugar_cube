@@ -461,6 +461,7 @@ extents = Vector2( 10.063, 5026.1 )
 extents = Vector2( 534.68, 40.5156 )
 
 [node name="Node2D" type="Node2D"]
+position = Vector2( -120, -176 )
 __meta__ = {
 "_edit_horizontal_guides_": [ 3960.0 ]
 }
