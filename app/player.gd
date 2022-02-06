@@ -51,8 +51,10 @@ func _physics_process(delta):
 					frame = 5
 				else:
 					frame = 4
-
-		pointer.rotate(0.1)
+		if rotation_dir == "left":
+			pointer.rotate(-0.1)
+		else:
+			pointer.rotate(0.1)
 		
 	elif Input.is_action_just_released("ui_down"):
 		frame = 0

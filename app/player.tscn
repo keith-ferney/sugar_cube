@@ -30,3 +30,6 @@ texture = ExtResource( 3 )
 texture = ExtResource( 4 )
 hframes = 2
 vframes = 3
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
