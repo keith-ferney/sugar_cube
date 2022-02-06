@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/suger_beat_mk3.wav-b8cbadf3a1fb844a5649b9a524261a90.sample"
+
+[deps]
+
+source_file="res://music/suger_beat_mk3.wav"
+dest_files=[ "res://.import/suger_beat_mk3.wav-b8cbadf3a1fb844a5649b9a524261a90.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
