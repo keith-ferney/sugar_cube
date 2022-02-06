@@ -7,9 +7,7 @@
 
 [node name="testlevelobject" type="Node2D"]
 
-[node name="Win" parent="." groups=[
-"gui",
-] instance=ExtResource( 4 )]
+[node name="Win" parent="." groups=["gui"] instance=ExtResource( 4 )]
 
 [node name="death_timer" parent="." instance=ExtResource( 1 )]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/drawing.svg-83e8c8b8855e3e4ca2952cbf638be33d.stex"
+path="res://.import/AutoTemplate_64x64.png-16bbeed0335bd861a68068552a6c9aa6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://_art/drawing.svg"
-dest_files=[ "res://.import/drawing.svg-83e8c8b8855e3e4ca2952cbf638be33d.stex" ]
+source_file="res://_art/AutoTemplate_64x64.png"
+dest_files=[ "res://.import/AutoTemplate_64x64.png-16bbeed0335bd861a68068552a6c9aa6.stex" ]
 
 [params]
 
