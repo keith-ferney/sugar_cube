@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<!DOCTYPE lmms-project>
+<lmms-project type="song" creator="LMMS" version="1.0" creatorversion="1.2.2">
+  <head masterpitch="0" timesig_numerator="4" mastervol="100" bpm="120" timesig_denominator="4"/>
+  <song>
+    <trackcontainer type="song" minimized="0" visible="1" maximized="0" height="300" width="600" y="5" x="5">
+      <track type="0" name="TripleOscillator" muted="0" solo="0">
+        <instrumenttrack pitch="0" pan="0" pitchrange="1" fxch="0" vol="100" usemasterpitch="1" basenote="57">
+          <instrument name="tripleoscillator">
+            <tripleoscillator stphdetun0="0" coarse1="-12" phoffset2="0" phoffset0="0" wavetype0="0" phoffset1="0" vol0="33" finel1="0" vol2="33" pan0="0" coarse0="0" userwavefile0="" wavetype1="0" modalgo3="2" finer0="0" stphdetun2="0" finer2="0" finer1="0" stphdetun1="0" wavetype2="0" userwavefile2="" finel2="0" modalgo2="2" vol1="33" pan1="0" modalgo1="2" coarse2="-24" userwavefile1="" pan2="0" finel0="0"/>
+          </instrument>
+          <eldata fcut="14000" ftype="0" fres="0.5" fwet="0">
+            <elvol lshp="0" lspd_numerator="4" lspd_denominator="4" lspd_syncmode="0" sustain="0.5" ctlenvamt="0" amt="0" dec="0.5" hold="0.5" pdel="0" x100="0" latt="0" lamt="0" att="0" rel="0.1" lspd="0.1" lpdel="0" userwavefile=""/>
+            <elcut lshp="0" lspd_numerator="4" lspd_denominator="4" lspd_syncmode="0" sustain="0.5" ctlenvamt="0" amt="0" dec="0.5" hold="0.5" pdel="0" x100="0" latt="0" lamt="0" att="0" rel="0.1" lspd="0.1" lpdel="0" userwavefile=""/>
+            <elres lshp="0" lspd_numerator="4" lspd_denominator="4" lspd_syncmode="0" sustain="0.5" ctlenvamt="0" amt="0" dec="0.5" hold="0.5" pdel="0" x100="0" latt="0" lamt="0" att="0" rel="0.1" lspd="0.1" lpdel="0" userwavefile=""/>
+          </eldata>
+          <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+          <arpeggiator arptime_denominator="4" arpdir="0" arp-enabled="0" arpskip="0" arpcycle="0" arpmode="0" arptime_syncmode="0" arptime="100" arp="0" arprange="1" arpmiss="0" arpgate="100" arptime_numerator="4"/>
+          <midiport readable="0" inputchannel="0" outputcontroller="0" basevelocity="63" outputchannel="1" inputcontroller="0" fixedinputvelocity="-1" fixedoutputvelocity="-1" writable="0" fixedoutputnote="-1" outputprogram="1"/>
+          <fxchain enabled="0" numofeffects="0"/>
+        </instrumenttrack>
+      </track>
+      <track type="2" name="Sample track" muted="0" solo="0">
+        <sampletrack pan="0" vol="100">
+          <fxchain enabled="0" numofeffects="0"/>
+        </sampletrack>
+      </track>
+      <track type="1" name="Beat/Bassline 0" muted="0" solo="0">
+        <bbtrack>
+          <trackcontainer type="bbtrackcontainer" minimized="0" visible="0" maximized="0" height="400" width="700" y="5" x="610">
+            <track type="0" name="Kicker" muted="0" solo="0">
+              <instrumenttrack pitch="0" pan="0" pitchrange="1" fxch="0" vol="100" usemasterpitch="1" basenote="57">
+                <instrument name="kicker">
+                  <kicker startnote="1" startfreq="150" noise="0" decay="440" decay_numerator="4" gain="1" endnote="0" version="1" decay_syncmode="0" dist="0.8" distend="0.8" decay_denominator="4" click="0.4" env="0.163" slope="0.06" endfreq="40"/>
+                </instrument>
+                <eldata fcut="14000" ftype="0" fres="0.5" fwet="0">
+                  <elvol lshp="0" lspd_numerator="4" lspd_denominator="4" lspd_syncmode="0" sustain="0.5" ctlenvamt="0" amt="0" dec="0.5" hold="0.5" pdel="0" x100="0" latt="0" lamt="0" att="0" rel="0.1" lspd="0.1" lpdel="0" userwavefile=""/>
+                  <elcut lshp="0" lspd_numerator="4" lspd_denominator="4" lspd_syncmode="0" sustain="0.5" ctlenvamt="0" amt="0" dec="0.5" hold="0.5" pdel="0" x100="0" latt="0" lamt="0" att="0" rel="0.1" lspd="0.1" lpdel="0" userwavefile=""/>
+                  <elres lshp="0" lspd_numerator="4" lspd_denominator="4" lspd_syncmode="0" sustain="0.5" ctlenvamt="0" amt="0" dec="0.5" hold="0.5" pdel="0" x100="0" latt="0" lamt="0" att="0" rel="0.1" lspd="0.1" lpdel="0" userwavefile=""/>
+                </eldata>
+                <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+                <arpeggiator arptime_denominator="4" arpdir="0" arp-enabled="0" arpskip="0" arpcycle="0" arpmode="0" arptime_syncmode="0" arptime="100" arp="0" arprange="1" arpmiss="0" arpgate="100" arptime_numerator="4"/>
+                <midiport readable="0" inputchannel="0" outputcontroller="0" basevelocity="63" outputchannel="1" inputcontroller="0" fixedinputvelocity="-1" fixedoutputvelocity="-1" writable="0" fixedoutputnote="-1" outputprogram="1"/>
+                <fxchain enabled="0" numofeffects="0"/>
+              </instrumenttrack>
+              <pattern type="0" name="Kicker" pos="0" muted="0" steps="16"/>
+            </track>
+          </trackcontainer>
+        </bbtrack>
+      </track>
+      <track type="5" name="Automation track" muted="0" solo="0">
+        <automationtrack/>
+      </track>
+      <track type="0" name="Grand Piano" muted="0" solo="0">
+        <instrumenttrack pitch="0" pan="0" pitchrange="1" fxch="0" vol="100" usemasterpitch="1" basenote="57">
+          <instrument name="carlarack">
+            <carlarack>
+              <CARLA-PROJECT VERSION="2.0">
+                <EngineSettings>
+                  <ForceStereo>false</ForceStereo>
+                  <PreferPluginBridges>false</PreferPluginBridges>
+                  <PreferUiBridges>true</PreferUiBridges>
+                  <UIsAlwaysOnTop>false</UIsAlwaysOnTop>
+                  <MaxParameters>200</MaxParameters>
+                  <UIBridgesTimeout>4000</UIBridgesTimeout>
+                  <LADSPA_PATH>/home/ethan/.ladspa:/usr/lib/ladspa:/usr/local/lib/ladspa</LADSPA_PATH>
+                  <DSSI_PATH>/home/ethan/.dssi:/usr/lib/dssi:/usr/local/lib/dssi</DSSI_PATH>
+                  <LV2_PATH>/home/ethan/.lv2:/usr/lib/lv2:/usr/local/lib/lv2</LV2_PATH>
+                  <VST2_PATH>/home/ethan/.vst:/usr/lib/vst:/usr/local/lib/vst/home/ethan/.lxvst:/usr/lib/lxvst:/usr/local/lib/lxvst</VST2_PATH>
+                  <VST3_PATH>/home/ethan/.vst3:/usr/lib/vst3:/usr/local/lib/vst3</VST3_PATH>
+                  <SF2_PATH>/home/ethan/.sounds/sf2/home/ethan/.sounds/sf3:/usr/share/sounds/sf2:/usr/share/sounds/sf3:/usr/share/soundfonts</SF2_PATH>
+                  <SFZ_PATH>/home/ethan/.sounds/sfz:/usr/share/sounds/sfz</SFZ_PATH>
+                </EngineSettings>
+                <!-- OT P1ANO II -->
+                <Plugin>
+                  <Info>
+                    <Type>VST2</Type>
+                    <Name>OT P1ANO II</Name>
+                    <Binary>/home/ethan/instraments/OT-PIANO-S/OT P1ANO S.so</Binary>
+                    <UniqueID>1096967012</UniqueID>
+                  </Info>
+                  <Data>
+                    <Active>Yes</Active>
+                    <Volume>1.27</Volume>
+                    <ControlChannel>1</ControlChannel>
+                    <Options>0x3f9</Options>
+                    <Chunk>
+Q29udHJvbERhdGEAAQRNaWRpQ2hhbm5lbEZpbHRlckRhdGEAAQUBAQAAAFByb2dyYW0AAQUBAAAAAEhvc3RUZW1wbwABCQQAAAAAAADwv1VzZXJQcmVzZXQA
+AVYFL2hvbWUvZXRoYW4vLmNvbmZpZy9NeSBDb21wYW55L09UIFAxQU5PIElJL1VzZXIgUHJlc2V0cy8xIENMQVNTSUMvQ2xhc3NpY2FsIDQucHJlc2V0AAEE
+TW9kdWxlcwAAAQFQcm9jZXNzb3IAASNUeXBlAAEJBUN1cnZlRXEASUQAAQQFRVEAQnlwYXNzZWQAAQEDTnVtRmlsdGVycwABBQEGAAAAQmFuZDAAAQkEAAAA
+oDphLsBCYW5kMQABCQQAAADA9Xu0QEJhbmQyAAEJBAAAAOBW7xJAQmFuZDMAAQkEAAAAAAAA8D9CYW5kNAABCQQAAAAAAAAQQEJhbmQ1AAEJBAAAAACyZyDA
+QmFuZDYAAQkEAAAAwEwkpEBCYW5kNwABCQQAAACgcSENQEJhbmQ4AAEJBAAAAAAAAPA/QmFuZDkAAQkEAAAAAAAAEEBCYW5kMTAAAQkEAAAAALJnIMBCYW5k
+MTEAAQkEAAAAoEe0wUBCYW5kMTIAAQkEAAAA4FbvEkBCYW5kMTMAAQkEAAAAAAAA8D9CYW5kMTQAAQkEAAAAAAAAEEBCYW5kMTUAAQkEAAAAwFM6EkBCYW5k
+MTYAAQkEAAAAILDNjkBCYW5kMTcAAQkEAAAAoHAh3T9CYW5kMTgAAQkEAAAAAAAA8D9CYW5kMTkAAQkEAAAAAAAACEBCYW5kMjAAAQkEAAAAQN/VEsBCYW5k
+MjEAAQkEAAAA4HqfmkBCYW5kMjIAAQkEAAAA4FbvEkBCYW5kMjMAAQkEAAAAAAAA8D9CYW5kMjQAAQkEAAAAAAAAEEBCYW5kMjUAAQkEAAAAoLRnMMBCYW5k
+MjYAAQkEAAAAQPMBykBCYW5kMjcAAQkEAAAAIH1oBkBCYW5kMjgAAQkEAAAAAAAA8D9CYW5kMjkAAQkEAAAAAAAAEEBGRlRFbmFibGVkAAEBAwECQ2hpbGRQ
+cm9jZXNzb3JzAAAAUm91dGluZ01hdHJpeAABBU51bVNvdXJjZUNoYW5uZWxzAAEFAQIAAABDaGFubmVsMAABBQEAAAAAU2VuZDAAAQUB/////0NoYW5uZWwx
+AAEFAQEAAABTZW5kMQABBQH/////AE1pZGlBdXRvbWF0aW9uAAAASW50ZXJmYWNlRGF0YQAAAQFDb250ZW50AAEBUHJvY2Vzc29yAAELBUludGVyZmFjZQAB
+n0NvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABFQVDT01QUkVTU0lPTiBTV1BCVFROAHZhbHVlAAEJBAAAAAAAAPA/AENvbnRyb2wAAQN0eXBl
+AAEOBVNjcmlwdFNsaWRlcgBpZAABDwVCT09TVCBTV1BCVFROAHZhbHVlAAEJBAAAAAAAAPA/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAAB
+CgVDLVJFVkVSQgB2YWx1ZQABCQQAAAAAAADwPwBDb250cm9sAAEDdHlwZQABEAVTY3JpcHRDb21ib0JveABpZAABCgVDT05WT0JPWAB2YWx1ZQABCQQAAAAA
+AAAQQABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRCdXR0b24AaWQAAQ4FQUJPVVQgQlVUVE9OAHZhbHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEO
+BVNjcmlwdFNsaWRlcgBpZAABDAVLRVlDVFJMIDAxAHZhbHVlAAEJBAAAAEBiZua/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABDAVLRVlD
+VFJMIDAyAHZhbHVlAAEJBAAAAEAzMzHAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABDAVLRVlDVFJMIDAzAHZhbHVlAAEJBAAAAEAz80DA
+AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABDAVLRVlDVFJMIDA0AHZhbHVlAAEJBAAAAAAAgFxAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlw
+dFNsaWRlcgBpZAABDAVLRVlDVFJMIDA1AHZhbHVlAAEJBAAAAECRmcm/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABDAVLRVlDVFJMIDA2
+AHZhbHVlAAEJBAAAAGBmpkDAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABDQVLRVlDVFJMIDAxMQB2YWx1ZQABCQQAAADAzMwlwABDb250
+cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAAQwFS0VZQ1RSTCAwNwB2YWx1ZQABCQQAAABgZmYhwABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlk
+ZXIAaWQAAQwFS0VZQ1RSTCAwOAB2YWx1ZQABCQQAAADA9SgGQABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAAQwFS0VZQ1RSTCAwOQB2YWx1
+ZQABCQQAAADAzEwzQABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAAQ0FS0VZQ1RSTCAwMTAAdmFsdWUAAQkEAAAAQDMzH8AAQ29udHJvbAAB
+A3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAENBUtFWUNUUkwgMDEyAHZhbHVlAAEJBAAAAAAAEbJAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBp
+ZAABDQVFMSBTV1BCVFROIAB2YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAAQwFRTIgU1dQQlRUTgB2YWx1ZQAB
+CQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAAQwFRTMgU1dQQlRUTgB2YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlw
+ZQABDgVTY3JpcHRTbGlkZXIAaWQAAQcFS25vYjEAdmFsdWUAAQkEAAAAAAAAAAAAQ29udHJvbAABA3R5cGUAARAFU2NyaXB0Q29tYm9Cb3gAaWQAAQ8FRTFN
+T0RFTFNFTEVDVAB2YWx1ZQABCQQAAAAAAADwPwBDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAAQ4FRTEtVFJBTlNQT1NFAHZhbHVlAAEJBAAA
+AAAAABBAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABEQVFMS1TQU1QTEVTVEFSVDIAdmFsdWUAAQkEAAAAYLge1b8AQ29udHJvbAABA3R5
+cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEQBUUxLVNBTVBMRVNUQVJUAHZhbHVlAAEJBAAAAMDMzOw/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBp
+ZAABEAVFMS1TTVBTVEFSVCBPTgB2YWx1ZQABCQQAAAAAAADwPwBDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARkFRTEtU0FNUExFU1RBUlQg
+VkVMT0NJVFkAdmFsdWUAAQkEAAAAAAAAAAAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0QnV0dG9uAGlkAAEZBUUxLVZFTE9DSVRZIFNNUFNUQVJUIE9OAHZh
+bHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABIAVFMS1WRUxPQ0lUWSBTQU1QTEVTVEFSVCBJTlZFUlQAdmFsdWUA
+AQkEAAAAAAAAAAAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEXBUUxLVNBTVBMRVNUQVJUIFJBTkRPTQB2YWx1ZQABCQQAAABgZmbWPwBD
+b250cm9sAAEDdHlwZQABDgVTY3JpcHRCdXR0b24AaWQAARoFRTEtUkFORE9NIFNBTVBMRVNUQVJUIE9OAHZhbHVlAAEJBAAAAAAAAPA/AENvbnRyb2wAAQN0
+eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABEQVFMS1HRU5WIEFUVEFDSyAAdmFsdWUAAQkEAAAAAAAAJEAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVy
+AGlkAAEOBUUxLUdFTlYgSE9MRAB2YWx1ZQABCQQAAAAAAIjjQABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAAQ8FRTEtR0VOViBERUNBWQB2
+YWx1ZQABCQQAAAAAAIjjQABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAAREFRTEtR0VOViBSRUxFQVNFAHZhbHVlAAEJBAAAAAAApqRAAENv
+bnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABFgVFMS1HRU5WIEFUVEFDSyBDVVJWRQB2YWx1ZQABCQQAAACgR+HKPwBDb250cm9sAAEDdHlwZQAB
+DgVTY3JpcHRTbGlkZXIAaWQAARUFRTEtR0VOViBERUNBWSBDVVJWRQB2YWx1ZQABCQQAAAAAAADwPwBDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIA
+aWQAARYFRTEtR0VOViBBVFRBQ0sgTEVWRUwAdmFsdWUAAQkEAAAAYI/CxT8AQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0QnV0dG9uAGlkAAEdBUUxLVZFTE9D
+SVRZIEFUVEFDSyBMRVZFTCBPTgB2YWx1ZQABCQQAAAAAAADwPwBDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARkFRTEtVkVMT0NJVFkgU0VO
+U0lUSVZJVFkAdmFsdWUAAQkEAAAA4KNw5T8AQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0QnV0dG9uAGlkAAEcBUUxLVZFTE9DSVRZIFNFTlNJVElWSVRZIE9O
+AHZhbHVlAAEJBAAAAAAAAPA/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABIAVFMS1WRUxPQ0lUWSBTRU5TSVRJVklUWSBJTlZFUlQAdmFs
+dWUAAQkEAAAAAAAAAAAAQ29udHJvbAABA3R5cGUAARAFU2NyaXB0Q29tYm9Cb3gAaWQAARAFRTFGSUxURVJTRUxFQ1QAdmFsdWUAAQkEAAAAAAAAJkAAQ29u
+dHJvbAABA3R5cGUAAQ4FU2NyaXB0QnV0dG9uAGlkAAEOBUUxLUZJTFRFUiBPTgB2YWx1ZQABCQQAAAAAAADwPwBDb250cm9sAAEDdHlwZQABDgVTY3JpcHRT
+bGlkZXIAaWQAARUFRTEtRklMVEVSIEZSRVFVRU5DWQB2YWx1ZQABCQQAAAAAAHW1QABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARUFRTEt
+RklMVEVSIFJFU09OQU5DRQB2YWx1ZQABCQQAAABgZmbmPwBDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARMFRTEtRklMVEVSIEJJUE9MQVIA
+dmFsdWUAAQkEAAAAYLge1b8AQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEQBUUxLUZJTFRFUiBHQUlOAHZhbHVlAAEJBAAAAGCPwitAAENv
+bnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABEAVFMS1GRU5WIEFUVEFDSwB2YWx1ZQABCQQAAAAAAADwPwBDb250cm9sAAEDdHlwZQABDgVTY3Jp
+cHRTbGlkZXIAaWQAAQ8FRTEtRkVOViBERUNBWQB2YWx1ZQABCQQAAAAAAIjTQABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAAREFRTEtRkVO
+ViBTVVNUQUlOAHZhbHVlAAEJBAAAAAAAgEDAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABEQVFMS1GRU5WIFJFTEVBU0UAdmFsdWUAAQkE
+AAAAAADlvkAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0QnV0dG9uAGlkAAEXBUUxLUZJTFRFUiBFTlZFTE9QRSBPTgB2YWx1ZQABCQQAAAAAAAAAAABDb250
+cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARYFRTEtRkVOViBBVFRBQ0sgQ1VSVkUAdmFsdWUAAQkEAAAAwPUozD8AQ29udHJvbAABA3R5cGUAAQ4F
+U2NyaXB0U2xpZGVyAGlkAAEVBUUxLUZFTlYgREVDQVkgQ1VSVkUAdmFsdWUAAQkEAAAAIK5H4T8AQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlk
+AAEWBUUxLUZFTlYgQVRUQUNLIExFVkVMAHZhbHVlAAEJBAAAAKBwPeI/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABHAVFMS1GSUxURVIg
+RlJFUVVFTkNZIFZfU0VOUwB2YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRCdXR0b24AaWQAAR8FRTEtRklMVEVSIEZSRVFVRU5D
+WSBWLVNFTlMgT04AdmFsdWUAAQkEAAAAAAAAAAAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0QnV0dG9uAGlkAAEjBUUxLUZJTFRFUiBGUkVRVUVOQ1kgVi1T
+RU5TIElOVkVSVAB2YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARcFRTEtRklMVEVSIEdBSU4gVi1TRU5TAHZh
+bHVlAAEJBAAAACCuR/E/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABGgVFMS1GSUxURVIgR0FJTiBWLVNFTlMgT04AdmFsdWUAAQkEAAAA
+AAAA8D8AQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0QnV0dG9uAGlkAAEeBUUxLUZJTFRFUiBHQUlOIFYtU0VOUyBJTlZFUlQAdmFsdWUAAQkEAAAAAAAAAAAA
+Q29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEaBUUxLUZJTFRFUiBCSVBMT0FSIFYtU0VOUwB2YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAED
+dHlwZQABDgVTY3JpcHRCdXR0b24AaWQAAR0FRTEtRklMVEVSIEJJUE9MQVIgVi1TRU5TIE9OAHZhbHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEO
+BVNjcmlwdEJ1dHRvbgBpZAABIQVFMS1GSUxURVIgQklQT0xBUiBWLVNFTlMgSU5WRVJUAHZhbHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEOBVNj
+cmlwdEJ1dHRvbgBpZAABFwVFMi1SRUxFQVNFIFRSSUdHRVIgT04AdmFsdWUAAQkEAAAAAAAA8D8AQ29udHJvbAABA3R5cGUAARAFU2NyaXB0Q29tYm9Cb3gA
+aWQAAQ8FRTJNT0RFTFNFTEVDVAB2YWx1ZQABCQQAAAAAAAAQQABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAAQ4FRTItVFJBTlNQT1NFAHZh
+bHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABCgVFMi1QSVRDSAB2YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAED
+dHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARAFRTItU0FNUExFU1RBUlQAdmFsdWUAAQkEAAAAIFyP6j8AQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0QnV0dG9u
+AGlkAAEQBUUyLVNNUFNUQVJUIE9OAHZhbHVlAAEJBAAAAAAAAPA/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABGQVFMi1TQU1QTEVTVEFS
+VCBWRUxPQ0lUWQB2YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRCdXR0b24AaWQAARkFRTItVkVMT0NJVFkgU01QU1RBUlQgT04A
+dmFsdWUAAQkEAAAAAAAAAAAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0QnV0dG9uAGlkAAEgBUUyLVZFTE9DSVRZIFNBTVBMRVNUQVJUIElOVkVSVAB2YWx1
+ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARcFRTItU0FNUExFU1RBUlQgUkFORE9NAHZhbHVlAAEJBAAAAGCPwu0/
+AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABGgVFMi1SQU5ET00gU0FNUExFU1RBUlQgT04AdmFsdWUAAQkEAAAAAAAA8D8AQ29udHJvbAAB
+A3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEQBUUyLUdFTlYgQVRUQUNLAHZhbHVlAAEJBAAAAAAAACRAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRl
+cgBpZAABDgVFMi1HRU5WIEhPTEQAdmFsdWUAAQkEAAAAAAAAAAAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEPBUUyLUdFTlYgREVDQVkA
+dmFsdWUAAQkEAAAAAAA8p0AAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAERBUUyLUdFTlYgUkVMRUFTRQB2YWx1ZQABCQQAAAAAAAAxQABD
+b250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARYFRTItR0VOViBBVFRBQ0sgQ1VSVkUAdmFsdWUAAQkEAAAAYI/CxT8AQ29udHJvbAABA3R5cGUA
+AQ4FU2NyaXB0U2xpZGVyAGlkAAEVBUUyLUdFTlYgREVDQVkgQ1VSVkUAdmFsdWUAAQkEAAAA4HoU3j8AQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVy
+AGlkAAEWBUUyLUdFTlYgQVRUQUNLIExFVkVMAHZhbHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABHQVFMi1WRUxP
+Q0lUWSBBVFRBQ0sgTEVWRUwgT04AdmFsdWUAAQkEAAAAAAAAAAAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEZBUUyLVZFTE9DSVRZIFNF
+TlNJVElWSVRZAHZhbHVlAAEJBAAAAIDrUeg/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABHAVFMi1WRUxPQ0lUWSBTRU5TSVRJVklUWSBP
+TgB2YWx1ZQABCQQAAAAAAADwPwBDb250cm9sAAEDdHlwZQABDgVTY3JpcHRCdXR0b24AaWQAASAFRTItVkVMT0NJVFkgU0VOU0lUSVZJVFkgSU5WRVJUAHZh
+bHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEQBVNjcmlwdENvbWJvQm94AGlkAAEQBUUyRklMVEVSU0VMRUNUAHZhbHVlAAEJBAAAAAAAABRAAENv
+bnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABDgVFMi1GSUxURVIgT04AdmFsdWUAAQkEAAAAAAAA8D8AQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0
+U2xpZGVyAGlkAAEVBUUyLUZJTFRFUiBGUkVRVUVOQ1kAdmFsdWUAAQkEAAAAAACqtkAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEVBUUy
+LUZJTFRFUiBSRVNPTkFOQ0UAdmFsdWUAAQkEAAAAQDMz0z8AQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAETBUUyLUZJTFRFUiBCSVBPTEFS
+AHZhbHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABEAVFMi1GSUxURVIgR0FJTgB2YWx1ZQABCQQAAAAAAAAywABD
+b250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARAFRTItRkVOViBBVFRBQ0sAdmFsdWUAAQkEAAAAAAAAAAAAQ29udHJvbAABA3R5cGUAAQ4FU2Ny
+aXB0U2xpZGVyAGlkAAEPBUUyLUZFTlYgREVDQVkAdmFsdWUAAQkEAAAAAAAAAAAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAERBUUyLUZF
+TlYgU1VTVEFJTgB2YWx1ZQABCQQAAAAAAABZwABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAAREFRTItRkVOViBSRUxFQVNFAHZhbHVlAAEJ
+BAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABFwVFMi1GSUxURVIgRU5WRUxPUEUgT04AdmFsdWUAAQkEAAAAAAAAAAAAQ29u
+dHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEWBUUyLUZFTlYgQVRUQUNLIENVUlZFAHZhbHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEO
+BVNjcmlwdFNsaWRlcgBpZAABFQVFMi1GRU5WIERFQ0FZIENVUlZFAHZhbHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBp
+ZAABFgVFMi1GRU5WIEFUVEFDSyBMRVZFTAB2YWx1ZQABCQQAAAAAAAAIwABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARwFRTItRklMVEVS
+IEZSRVFVRU5DWSBWX1NFTlMAdmFsdWUAAQkEAAAAYI/C9T8AQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0QnV0dG9uAGlkAAEfBUUyLUZJTFRFUiBGUkVRVUVO
+Q1kgVi1TRU5TIE9OAHZhbHVlAAEJBAAAAAAAAPA/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABIwVFMi1GSUxURVIgRlJFUVVFTkNZIFYt
+U0VOUyBJTlZFUlQAdmFsdWUAAQkEAAAAAAAAAAAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEXBUUyLUZJTFRFUiBHQUlOIFYtU0VOUwB2
+YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRCdXR0b24AaWQAARoFRTItRklMVEVSIEdBSU4gVi1TRU5TIE9OAHZhbHVlAAEJBAAA
+AAAAAAAAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABHgVFMi1GSUxURVIgR0FJTiBWLVNFTlMgSU5WRVJUAHZhbHVlAAEJBAAAAAAAAAAA
+AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABGgVFMi1GSUxURVIgQklQTE9BUiBWLVNFTlMAdmFsdWUAAQkEAAAAQOF61D8AQ29udHJvbAAB
+A3R5cGUAAQ4FU2NyaXB0QnV0dG9uAGlkAAEdBUUyLUZJTFRFUiBCSVBPTEFSIFYtU0VOUyBPTgB2YWx1ZQABCQQAAAAAAADwPwBDb250cm9sAAEDdHlwZQAB
+DgVTY3JpcHRCdXR0b24AaWQAASEFRTItRklMVEVSIEJJUE9MQVIgVi1TRU5TIElOVkVSVAB2YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVT
+Y3JpcHRCdXR0b24AaWQAARcFRTMtUkVMRUFTRSBUUklHR0VSIE9OAHZhbHVlAAEJBAAAAAAAAPA/AENvbnRyb2wAAQN0eXBlAAEQBVNjcmlwdENvbWJvQm94
+AGlkAAEPBUUzTU9ERUxTRUxFQ1QAdmFsdWUAAQkEAAAAAAAAFEAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEOBUUzLVRSQU5TUE9TRQB2
+YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAAQoFRTMtUElUQ0gAdmFsdWUAAQkEAAAAAAAAAAAAQ29udHJvbAAB
+A3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEQBUUzLVNBTVBMRVNUQVJUAHZhbHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRv
+bgBpZAABEAVFMy1TTVBTVEFSVCBPTgB2YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARkFRTMtU0FNUExFU1RB
+UlQgVkVMT0NJVFkAdmFsdWUAAQkEAAAAQOF67D8AQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0QnV0dG9uAGlkAAEZBUUzLVZFTE9DSVRZIFNNUFNUQVJUIE9O
+AHZhbHVlAAEJBAAAAAAAAPA/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABIAVFMy1WRUxPQ0lUWSBTQU1QTEVTVEFSVCBJTlZFUlQAdmFs
+dWUAAQkEAAAAAAAA8D8AQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEXBUUzLVNBTVBMRVNUQVJUIFJBTkRPTQB2YWx1ZQABCQQAAAAgXI/i
+PwBDb250cm9sAAEDdHlwZQABDgVTY3JpcHRCdXR0b24AaWQAARoFRTMtUkFORE9NIFNBTVBMRVNUQVJUIE9OAHZhbHVlAAEJBAAAAAAAAPA/AENvbnRyb2wA
+AQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABEAVFMy1HRU5WIEFUVEFDSwB2YWx1ZQABCQQAAAAAAAAzQABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlk
+ZXIAaWQAAQ4FRTMtR0VOViBIT0xEAHZhbHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABDwVFMy1HRU5WIERFQ0FZ
+AHZhbHVlAAEJBAAAAAAA/rBAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABEQVFMy1HRU5WIFJFTEVBU0UAdmFsdWUAAQkEAAAAAAAAKkAA
+Q29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEWBUUzLUdFTlYgQVRUQUNLIENVUlZFAHZhbHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBl
+AAEOBVNjcmlwdFNsaWRlcgBpZAABFQVFMy1HRU5WIERFQ0FZIENVUlZFAHZhbHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRl
+cgBpZAABFgVFMy1HRU5WIEFUVEFDSyBMRVZFTAB2YWx1ZQABCQQAAACgcD3iPwBDb250cm9sAAEDdHlwZQABDgVTY3JpcHRCdXR0b24AaWQAAR0FRTMtVkVM
+T0NJVFkgQVRUQUNLIExFVkVMIE9OAHZhbHVlAAEJBAAAAAAAAPA/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABGQVFMy1WRUxPQ0lUWSBT
+RU5TSVRJVklUWQB2YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRCdXR0b24AaWQAARwFRTMtVkVMT0NJVFkgU0VOU0lUSVZJVFkg
+T04AdmFsdWUAAQkEAAAAAAAAAAAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0QnV0dG9uAGlkAAEgBUUzLVZFTE9DSVRZIFNFTlNJVElWSVRZIElOVkVSVAB2
+YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABEAVTY3JpcHRDb21ib0JveABpZAABEAVFM0ZJTFRFUlNFTEVDVAB2YWx1ZQABCQQAAAAAAAAIQABD
+b250cm9sAAEDdHlwZQABDgVTY3JpcHRCdXR0b24AaWQAAQ4FRTMtRklMVEVSIE9OAHZhbHVlAAEJBAAAAAAAAPA/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlw
+dFNsaWRlcgBpZAABFQVFMy1GSUxURVIgRlJFUVVFTkNZAHZhbHVlAAEJBAAAAAAAYq5AAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABFQVF
+My1GSUxURVIgUkVTT05BTkNFAHZhbHVlAAEJBAAAAEAzM9M/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABEwVFMy1GSUxURVIgQklQT0xB
+UgB2YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARAFRTMtRklMVEVSIEdBSU4AdmFsdWUAAQkEAAAAAAAAMsAA
+Q29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEQBUUzLUZFTlYgQVRUQUNLAHZhbHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEOBVNj
+cmlwdFNsaWRlcgBpZAABDwVFMy1GRU5WIERFQ0FZAHZhbHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABEQVFMy1G
+RU5WIFNVU1RBSU4AdmFsdWUAAQkEAAAAAAAAWcAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAERBUUzLUZFTlYgUkVMRUFTRQB2YWx1ZQAB
+CQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRCdXR0b24AaWQAARcFRTMtRklMVEVSIEVOVkVMT1BFIE9OAHZhbHVlAAEJBAAAAAAAAAAAAENv
+bnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABFgVFMy1GRU5WIEFUVEFDSyBDVVJWRQB2YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQAB
+DgVTY3JpcHRTbGlkZXIAaWQAARUFRTMtRkVOViBERUNBWSBDVVJWRQB2YWx1ZQABCQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIA
+aWQAARYFRTMtRkVOViBBVFRBQ0sgTEVWRUwAdmFsdWUAAQkEAAAAAAAACMAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0U2xpZGVyAGlkAAEcBUUzLUZJTFRF
+UiBGUkVRVUVOQ1kgVl9TRU5TAHZhbHVlAAEJBAAAAOB6FOY/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABHwVFMy1GSUxURVIgRlJFUVVF
+TkNZIFYtU0VOUyBPTgB2YWx1ZQABCQQAAAAAAADwPwBDb250cm9sAAEDdHlwZQABDgVTY3JpcHRCdXR0b24AaWQAASMFRTMtRklMVEVSIEZSRVFVRU5DWSBW
+LVNFTlMgSU5WRVJUAHZhbHVlAAEJBAAAAAAAAAAAAENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdFNsaWRlcgBpZAABFwVFMy1GSUxURVIgR0FJTiBWLVNFTlMA
+dmFsdWUAAQkEAAAAAAAAAAAAQ29udHJvbAABA3R5cGUAAQ4FU2NyaXB0QnV0dG9uAGlkAAEaBUUzLUZJTFRFUiBHQUlOIFYtU0VOUyBPTgB2YWx1ZQABCQQA
+AAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRCdXR0b24AaWQAAR4FRTMtRklMVEVSIEdBSU4gVi1TRU5TIElOVkVSVAB2YWx1ZQABCQQAAAAAAAAA
+AABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARoFRTMtRklMVEVSIEJJUExPQVIgVi1TRU5TAHZhbHVlAAEJBAAAAIDC9dg/AENvbnRyb2wA
+AQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABHQVFMy1GSUxURVIgQklQT0xBUiBWLVNFTlMgT04AdmFsdWUAAQkEAAAAAAAA8D8AQ29udHJvbAABA3R5cGUA
+AQ4FU2NyaXB0QnV0dG9uAGlkAAEhBUUzLUZJTFRFUiBCSVBPTEFSIFYtU0VOUyBJTlZFUlQAdmFsdWUAAQkEAAAAAAAAAAAAQ29udHJvbAABA3R5cGUAAQ4F
+U2NyaXB0QnV0dG9uAGlkAAEHBUVRIE9OAHZhbHVlAAEJBAAAAAAAAPA/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABEgVVU0UgVEFCTEUg
+QlVUVE9OAHZhbHVlAAEJBAAAAAAAAPA/AENvbnRyb2wAAQN0eXBlAAEOBVNjcmlwdEJ1dHRvbgBpZAABFgVTT1VOREJPQVJEU0lNIEJVVFRPTgB2YWx1ZQAB
+CQQAAAAAAAAAAABDb250cm9sAAEDdHlwZQABDgVTY3JpcHRTbGlkZXIAaWQAARsFR0xPQkFMIFZFTE9DSVRZIElOVEVOU0lUWQB2YWx1ZQABCQQAAAAAAADg
+PwBNUEVEYXRhAAEBRW5hYmxlZAABAQMA
+   </Chunk>
+                  </Data>
+                </Plugin>
+              </CARLA-PROJECT>
+            </carlarack>
+          </instrument>
+          <eldata fcut="14000" ftype="0" fres="0.5" fwet="0">
+            <elvol lshp="0" lspd_numerator="4" lspd_denominator="4" lspd_syncmode="0" sustain="0.5" ctlenvamt="0" amt="0" dec="0.5" hold="0.5" pdel="0" x100="0" latt="0" lamt="0" att="0" rel="0.1" lspd="0.1" lpdel="0" userwavefile=""/>
+            <elcut lshp="0" lspd_numerator="4" lspd_denominator="4" lspd_syncmode="0" sustain="0.5" ctlenvamt="0" amt="0" dec="0.5" hold="0.5" pdel="0" x100="0" latt="0" lamt="0" att="0" rel="0.1" lspd="0.1" lpdel="0" userwavefile=""/>
+            <elres lshp="0" lspd_numerator="4" lspd_denominator="4" lspd_syncmode="0" sustain="0.5" ctlenvamt="0" amt="0" dec="0.5" hold="0.5" pdel="0" x100="0" latt="0" lamt="0" att="0" rel="0.1" lspd="0.1" lpdel="0" userwavefile=""/>
+          </eldata>
+          <chordcreator chord-enabled="0" chord="0" chordrange="1"/>
+          <arpeggiator arptime_denominator="4" arpdir="0" arp-enabled="0" arpskip="0" arpcycle="0" arpmode="0" arptime_syncmode="0" arptime="200" arp="0" arprange="1" arpmiss="0" arpgate="100" arptime_numerator="4"/>
+          <midiport readable="1" inputchannel="0" outputcontroller="0" basevelocity="63" outputchannel="1" inputcontroller="0" fixedinputvelocity="-1" fixedoutputvelocity="-1" inports="24:0 Q Mini:Q Mini MIDI 1" writable="0" fixedoutputnote="-1" outputprogram="1"/>
+          <fxchain enabled="0" numofeffects="0"/>
+        </instrumenttrack>
+        <pattern type="1" name="Grand Piano" pos="0" muted="0" steps="16">
+          <note pos="0" pan="0" vol="100" len="24" key="50"/>
+          <note pos="24" pan="0" vol="100" len="24" key="57"/>
+          <note pos="24" pan="0" vol="100" len="24" key="50"/>
+          <note pos="48" pan="0" vol="100" len="12" key="55"/>
+          <note pos="72" pan="0" vol="100" len="24" key="57"/>
+          <note pos="96" pan="0" vol="100" len="12" key="66"/>
+          <note pos="96" pan="0" vol="100" len="12" key="59"/>
+          <note pos="120" pan="0" vol="100" len="24" key="57"/>
+          <note pos="144" pan="0" vol="100" len="12" key="55"/>
+          <note pos="168" pan="0" vol="100" len="24" key="57"/>
+          <note pos="192" pan="0" vol="100" len="24" key="50"/>
+          <note pos="192" pan="0" vol="100" len="24" key="38"/>
+          <note pos="216" pan="0" vol="100" len="24" key="57"/>
+          <note pos="216" pan="0" vol="100" len="24" key="50"/>
+          <note pos="216" pan="0" vol="100" len="24" key="38"/>
+          <note pos="240" pan="0" vol="100" len="12" key="55"/>
+          <note pos="240" pan="0" vol="100" len="12" key="47"/>
+          <note pos="264" pan="0" vol="100" len="24" key="57"/>
+          <note pos="288" pan="0" vol="100" len="12" key="66"/>
+          <note pos="288" pan="0" vol="100" len="12" key="59"/>
+          <note pos="288" pan="0" vol="100" len="12" key="42"/>
+          <note pos="312" pan="0" vol="100" len="24" key="57"/>
+          <note pos="336" pan="0" vol="100" len="12" key="55"/>
+          <note pos="336" pan="0" vol="100" len="12" key="31"/>
+          <note pos="360" pan="0" vol="100" len="24" key="57"/>
+          <note pos="384" pan="0" vol="100" len="12" key="67"/>
+          <note pos="384" pan="0" vol="100" len="24" key="38"/>
+          <note pos="408" pan="0" vol="100" len="24" key="44"/>
+          <note pos="432" pan="0" vol="100" len="12" key="64"/>
+          <note pos="456" pan="0" vol="100" len="24" key="44"/>
+          <note pos="480" pan="0" vol="100" len="12" key="61"/>
+          <note pos="480" pan="0" vol="100" len="24" key="45"/>
+          <note pos="504" pan="0" vol="100" len="24" key="44"/>
+          <note pos="528" pan="0" vol="100" len="13" key="58"/>
+          <note pos="528" pan="0" vol="100" len="24" key="43"/>
+          <note pos="552" pan="0" vol="100" len="24" key="44"/>
+          <note pos="576" pan="0" vol="100" len="24" key="50"/>
+          <note pos="576" pan="0" vol="100" len="24" key="38"/>
+          <note pos="600" pan="0" vol="100" len="24" key="57"/>
+          <note pos="600" pan="0" vol="100" len="24" key="38"/>
+          <note pos="624" pan="0" vol="100" len="12" key="55"/>
+          <note pos="624" pan="0" vol="100" len="24" key="43"/>
+          <note pos="648" pan="0" vol="104" len="24" key="57"/>
+          <note pos="672" pan="0" vol="100" len="12" key="59"/>
+          <note pos="672" pan="0" vol="100" len="12" key="42"/>
+          <note pos="696" pan="0" vol="100" len="24" key="57"/>
+          <note pos="720" pan="0" vol="100" len="12" key="55"/>
+          <note pos="720" pan="0" vol="100" len="13" key="47"/>
+          <note pos="744" pan="0" vol="100" len="24" key="57"/>
+          <note pos="768" pan="0" vol="100" len="24" key="50"/>
+          <note pos="768" pan="0" vol="78" len="24" key="38"/>
+          <note pos="792" pan="0" vol="100" len="24" key="57"/>
+          <note pos="792" pan="0" vol="42" len="24" key="50"/>
+          <note pos="792" pan="0" vol="78" len="25" key="40"/>
+          <note pos="792" pan="0" vol="78" len="24" key="38"/>
+          <note pos="816" pan="0" vol="100" len="13" key="55"/>
+          <note pos="816" pan="0" vol="78" len="24" key="43"/>
+          <note pos="840" pan="0" vol="100" len="24" key="57"/>
+          <note pos="864" pan="0" vol="100" len="13" key="66"/>
+          <note pos="864" pan="0" vol="100" len="13" key="59"/>
+          <note pos="864" pan="0" vol="78" len="12" key="42"/>
+          <note pos="888" pan="0" vol="100" len="24" key="57"/>
+          <note pos="888" pan="0" vol="78" len="25" key="40"/>
+          <note pos="912" pan="0" vol="100" len="13" key="55"/>
+          <note pos="912" pan="0" vol="78" len="13" key="47"/>
+          <note pos="936" pan="0" vol="100" len="24" key="57"/>
+          <note pos="960" pan="0" vol="100" len="24" key="38"/>
+          <note pos="1008" pan="0" vol="100" len="24" key="45"/>
+          <note pos="1056" pan="0" vol="100" len="24" key="47"/>
+          <note pos="1104" pan="0" vol="100" len="24" key="43"/>
+        </pattern>
+      </track>
+    </trackcontainer>
+    <track type="6" name="Automation track" muted="0" solo="0">
+      <automationtrack/>
+      <automationpattern prog="0" name="Numerator" mute="0" tens="1" pos="0" len="192"/>
+      <automationpattern prog="0" name="Denominator" mute="0" tens="1" pos="0" len="192"/>
+      <automationpattern prog="0" name="Tempo" mute="0" tens="1" pos="0" len="192"/>
+      <automationpattern prog="0" name="Master volume" mute="0" tens="1" pos="0" len="192"/>
+      <automationpattern prog="0" name="Master pitch" mute="0" tens="1" pos="0" len="192"/>
+    </track>
+    <fxmixer minimized="0" visible="1" maximized="0" height="333" width="543" y="310" x="5">
+      <fxchannel name="Master" num="0" volume="1" soloed="0" muted="0">
+        <fxchain enabled="0" numofeffects="0"/>
+      </fxchannel>
+    </fxmixer>
+    <ControllerRackView minimized="0" visible="0" maximized="0" height="200" width="350" y="310" x="680"/>
+    <pianoroll minimized="0" visible="0" maximized="0" height="480" width="860" y="5" x="5"/>
+    <automationeditor minimized="0" visible="0" maximized="0" height="400" width="860" y="1" x="1"/>
+    <projectnotes minimized="0" visible="0" maximized="0" height="400" width="729" y="10" x="700"><![CDATA[<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head><meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p></body></html>]]></projectnotes>
+    <timeline lp1pos="1152" lp0pos="0" lpstate="1"/>
+    <controllers/>
+  </song>
+</lmms-project>
