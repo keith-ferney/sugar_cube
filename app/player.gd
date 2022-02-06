@@ -5,7 +5,7 @@ extends RigidBody2D
 # var a = 2
 # var b = "text"
 var charge = 0
-var limit = 200
+var limit = 400
 var limit_divisor = limit/2
 var multiplier = 2
 var rotation_dirs = ["left", "right"]
@@ -22,43 +22,27 @@ func _ready():
 func _physics_process(delta):
 	pointer.hide()
 	chargeSprite.hide()
-	if Input.is_action_just_pressed("ui_down"):
+	if Input.is_action_just_pressed("charge"):
 		if rotation_dir == rotation_dirs[1]:
 			rotation_dir = rotation_dirs[0]
 		else:
 			rotation_dir = rotation_dirs[1] 
-	if Input.is_action_pressed("ui_down"):
-
-		self.set_linear_velocity(Vector2(0,0))
+	if Input.is_action_pressed("charge"):
+		self.apply_central_impulse(-self.linear_velocity * 0.1)
 		pointer.show()
 		chargeSprite.show()
+		chargeSprite.rotate(.1)
 		if charge < limit:
 			charge = charge + multiplier 
-		frame_time = frame_time + delta
-		if frame_time >= 0.1:
-			frame_time = 0
-			var frame_set = int(charge / limit_divisor)
-			if frame_set == 0:
-				if frame == 0:
-					frame = 1
-				else:
-					frame = 0
-			elif frame_set == 1:
-				if frame == 2:
-					frame = 3
-				else:
-					frame = 2
-			elif frame_set == 2:
-				if frame == 4:
-					frame = 5
-				else:
-					frame = 4
-		if rotation_dir == "left":
-			pointer.rotate(-0.1)
-		else:
-			pointer.rotate(0.1)
 		
-	elif Input.is_action_just_released("ui_down"):
+		calc_frame(delta)
+
+		if rotation_dir == "left":
+			pointer.rotate(-0.05)
+		else:
+			pointer.rotate(0.05)
+		
+	elif Input.is_action_just_released("charge"):
 		frame = 0
 		self.apply_impulse(Vector2(0, 0), Vector2(0, -charge*2).rotated(pointer.get_global_rotation()))
 		var tqe = 1000
@@ -70,6 +54,22 @@ func _physics_process(delta):
 		
 	chargeSprite.set_frame(frame)
 	
+
+func calc_frame(delta):
+	frame_time = frame_time + delta
+	if frame_time >= 0.1:
+		frame_time = 0
+		var frame_set = int(charge / limit_divisor)
+		match frame_set:
+			0:
+				if frame == 0: frame = 1
+				else: frame = 0
+			1:
+				if frame == 2: frame = 3
+				else: frame = 2
+			2:
+				if frame == 4: frame = 5
+				else: frame = 4
 	
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):

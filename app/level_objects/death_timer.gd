@@ -18,6 +18,7 @@ func _process(delta):
 
 
 func _on_Timer_timeout():
-	get_node("/root/LevelManager").process_level("death")
+	$Label.modulate = Color.red
+
 	
 	
