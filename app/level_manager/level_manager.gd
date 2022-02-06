@@ -11,8 +11,10 @@ func process_level(command):
 		call(command)
 
 func win():
-	yield(get_tree().create_timer(0.5),"timeout")
+	yield(get_tree().create_timer(2),"timeout")
 	print("woohooo")
+	get_tree().call_group("gui","win")
 
 func death():
-	print("U DIEDED dumdum")
+	yield(get_tree().create_timer(2),"timeout")
+	get_tree().reload_current_scene()

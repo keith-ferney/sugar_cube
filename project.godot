@@ -11,6 +11,7 @@ config_version=4
 [application]
 
 config/name="Sugar Cube"
+run/main_scene="res://app/gui/main_menu.tscn"
 config/icon="res://icon.png"
 
 [autoload]
