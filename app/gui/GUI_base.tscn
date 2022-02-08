@@ -20,6 +20,6 @@ margin_right = 20.0
 margin_bottom = 20.0
 
 [node name="nav_button" parent="VBoxContainer" instance=ExtResource( 1 )]
-margin_right = 40.0
-margin_bottom = 14.0
+margin_right = 191.0
+margin_bottom = 127.0
 text = "yollo"

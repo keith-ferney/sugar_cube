@@ -24,6 +24,11 @@ window/dpi/allow_hidpi=true
 window/stretch/mode="2d"
 window/stretch/aspect="keep"
 
+[gui]
+
+theme/custom="res://resources/Theme.tres"
+theme/custom_font="res://resources/Font.tres"
+
 [input]
 
 charge={

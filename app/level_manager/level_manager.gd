@@ -12,7 +12,7 @@ func process_level(command):
 
 func win():
 	get_tree().call_group("gui","win")
-	get_tree().change_scene("res://winscene.tscn")
+	get_tree().change_scene("res://app/gui/winscene.tscn")
 
 func death():
-	get_tree().reload_current_scene()
+	get_tree().change_scene("res://app/gui/death.tscn")
