@@ -71,7 +71,7 @@ autostart = true
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_right = 736.0
 margin_bottom = 128.0
-rect_scale = Vector2( 0.995917, 1 )
+rect_scale = Vector2( 0.778907, 1.03662 )
 color = Color( 0, 0, 0, 0.498039 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -81,7 +81,7 @@ __meta__ = {
 margin_left = 32.0
 margin_right = 416.0
 margin_bottom = 127.0
-text = "Time: %i"
+text = "Time: 00:00"
 __meta__ = {
 "_edit_use_anchors_": false
 }
