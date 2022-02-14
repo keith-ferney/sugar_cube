@@ -8,6 +8,22 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Resource",
+"class": "LevelArray",
+"language": "GDScript",
+"path": "res://app/level_manager/LevelArray.gd"
+}, {
+"base": "Resource",
+"class": "LevelDict",
+"language": "GDScript",
+"path": "res://app/level_manager/LevelDict.gd"
+} ]
+_global_script_class_icons={
+"LevelArray": "",
+"LevelDict": ""
+}
+
 [application]
 
 config/name="Sugar Cube"
