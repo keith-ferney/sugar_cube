@@ -301,3 +301,9 @@ size_flags_vertical = 4
 text = "1"
 
 [node name="LevelData" parent="." instance=ExtResource( 3 )]
+level_data = [ {
+"difficulty": "Hard",
+"file": "res",
+"level_name": "",
+"order": 1
+} ]

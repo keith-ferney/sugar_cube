@@ -3,7 +3,7 @@
 [ext_resource path="res://resources/Font.tres" type="DynamicFont" id=1]
 [ext_resource path="res://app/gui/nav_button.tscn" type="PackedScene" id=2]
 [ext_resource path="res://app/gui/main_menu.tscn" type="PackedScene" id=3]
-[ext_resource path="res://app/levels/level.tscn" type="PackedScene" id=4]
+[ext_resource path="res://app/level_objects/level.tscn" type="PackedScene" id=4]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
