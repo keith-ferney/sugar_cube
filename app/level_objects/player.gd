@@ -1,13 +1,14 @@
 extends RigidBody2D
 
-var limit = 400
+var limit = 300
 var torque = 1000
-var multiplier = 2
-var charge = base_charge
+var multiplier = 1
 var base_charge = limit/4
+var charge = base_charge
 var rotation_speed = 0.05
-onready var pointer = $Pointer
-onready var chargeSprite = $Charge
+onready var rotation_nullifier = $rotation_nullifier
+onready var pointer = $rotation_nullifier/Pointer
+onready var chargeSprite = $rotation_nullifier/Charge
 onready var animationPlayer = $AnimationPlayer
 
 func _ready():
@@ -15,13 +16,15 @@ func _ready():
   hide_movement_indicators()
 
 func _physics_process(_delta):
+#  rotation = 0
   if Input.is_action_just_pressed("charge"):
       rotation_speed = -rotation_speed
   if Input.is_action_pressed("charge"):
     show_movement_indicators()
     pointer.rotate(rotation_speed)
+    rotation_nullifier.global_rotation = 0
     self.apply_central_impulse(-self.linear_velocity * 0.1)
-    chargeSprite.rotate(.1)
+    chargeSprite.rotate(0)
     match int(floor(charge / base_charge)):
       1: animationPlayer.play("Stage 1")
       2: animationPlayer.play("Stage 2")
