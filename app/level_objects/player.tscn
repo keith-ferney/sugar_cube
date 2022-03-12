@@ -9,7 +9,7 @@
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 25, 24.5 )
 
-[sub_resource type="RectangleShape2D" id=7]
+[sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 24, 24 )
 
 [sub_resource type="Animation" id=3]
@@ -123,7 +123,9 @@ tracks/1/keys = {
 "values": [ 90.0, 180.0, 270.0, 360.0 ]
 }
 
-[node name="Player" type="RigidBody2D" groups=["player"]]
+[node name="Player" type="RigidBody2D" groups=[
+"player",
+]]
 gravity_scale = 3.0
 script = ExtResource( 2 )
 
@@ -160,7 +162,7 @@ position = Vector2( 0, 0.5 )
 shape = SubResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource( 7 )
+shape = SubResource( 2 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 root_node = NodePath("../rotation_nullifier/Charge")
