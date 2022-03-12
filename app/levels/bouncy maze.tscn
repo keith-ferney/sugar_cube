@@ -3,7 +3,7 @@
 [ext_resource path="res://app/level_objects/levelBase.tscn" type="PackedScene" id=1]
 
 [node name="Level 3" instance=ExtResource( 1 )]
-difficulty = "normal"
+difficulty = "hard"
 order = 4
 
 [node name="death" parent="." index="0"]
