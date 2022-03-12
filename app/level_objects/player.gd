@@ -37,7 +37,6 @@ func _physics_process(_delta):
     self.apply_impulse(Vector2(0, 0), Vector2(0, -charge*2).rotated(pointer.get_global_rotation()))
     torque = -torque
     self.apply_torque_impulse(torque)
-    print_debug(charge)
     charge = base_charge
 
 func show_movement_indicators():

@@ -2,10 +2,11 @@
 
 [ext_resource path="res://resources/Font.tres" type="DynamicFont" id=1]
 [ext_resource path="res://app/gui/nav_button.tscn" type="PackedScene" id=2]
-[ext_resource path="res://app/gui/main_menu.tscn" type="PackedScene" id=3]
-[ext_resource path="res://app/level_objects/level.tscn" type="PackedScene" id=4]
+[ext_resource path="res://app/gui/LevelSelect.tscn" type="PackedScene" id=3]
+[ext_resource path="res://app/gui/LevelNavigationButtons.tscn" type="PackedScene" id=4]
 
-[node name="Control" type="Control"]
+[node name="death" type="Control"]
+pause_mode = 2
 anchor_right = 1.0
 anchor_bottom = 1.0
 __meta__ = {
@@ -27,17 +28,11 @@ __meta__ = {
 }
 
 [node name="nav_button" parent="." instance=ExtResource( 2 )]
-margin_left = 281.0
-margin_top = 288.0
-margin_right = 727.0
-margin_bottom = 415.0
-text = "Main Menu"
+margin_left = 240.0
+margin_top = 280.0
+margin_right = 757.0
+margin_bottom = 407.0
+text = "Level Select"
 scene = ExtResource( 3 )
 
-[node name="nav_button2" parent="." instance=ExtResource( 2 )]
-margin_left = 335.0
-margin_top = 434.0
-margin_right = 658.0
-margin_bottom = 561.0
-text = "Restart"
-scene = ExtResource( 4 )
+[node name="Level Navigation" parent="." instance=ExtResource( 4 )]
