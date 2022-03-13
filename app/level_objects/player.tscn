@@ -6,8 +6,8 @@
 [ext_resource path="res://images/charge.png" type="Texture" id=4]
 [ext_resource path="res://app/level_objects/scripts/Area2D.gd" type="Script" id=5]
 
-[sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 25, 24.5 )
+[sub_resource type="CircleShape2D" id=7]
+radius = 13.0358
 
 [sub_resource type="Animation" id=3]
 resource_name = "Stage 1"
@@ -57,12 +57,7 @@ tracks/0/keys = {
 "values": [ 4, 5, 4, 5 ]
 }
 
-[sub_resource type="CircleShape2D" id=6]
-radius = 13.0358
-
-[node name="Player" type="RigidBody2D" groups=[
-"player",
-]]
+[node name="Player" type="RigidBody2D" groups=["player"]]
 gravity_scale = 3.0
 script = ExtResource( 2 )
 
@@ -100,9 +95,21 @@ collision_layer = 2
 collision_mask = 2
 script = ExtResource( 5 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2( 0, 0.5 )
-shape = SubResource( 1 )
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( -13.3634, -13.5862 )
+shape = SubResource( 7 )
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 13.1408, -13.5862 )
+shape = SubResource( 7 )
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( -13.3634, 12.918 )
+shape = SubResource( 7 )
+
+[node name="CollisionShape2D8" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 13.1408, 12.6953 )
+shape = SubResource( 7 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 root_node = NodePath("../rotation_nullifier/Charge")
