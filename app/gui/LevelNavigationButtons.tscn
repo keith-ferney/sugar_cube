@@ -1,9 +1,15 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://app/gui/nextButton.gd" type="Script" id=1]
 [ext_resource path="res://app/gui/previousButton.gd" type="Script" id=2]
 [ext_resource path="res://app/gui/restart.tscn" type="PackedScene" id=3]
 [ext_resource path="res://app/gui/LevelNavigationButtons.gd" type="Script" id=4]
+
+[sub_resource type="InputEventAction" id=4]
+action = "ui_accept"
+
+[sub_resource type="ShortCut" id=5]
+shortcut = SubResource( 4 )
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.52549, 0.592157, 0.780392, 1 )
@@ -23,6 +29,7 @@ __meta__ = {
 }
 
 [node name="restart" parent="." instance=ExtResource( 3 )]
+shortcut = SubResource( 5 )
 
 [node name="previous" type="Button" parent="."]
 margin_left = 24.0
