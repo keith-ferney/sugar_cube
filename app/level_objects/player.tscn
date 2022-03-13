@@ -88,8 +88,8 @@ vframes = 3
 
 [node name="RayCast2D" type="RayCast2D" parent="rotation_nullifier"]
 position = Vector2( -0.157494, 26 )
+rotation = 0.350811
 enabled = true
-cast_to = Vector2( 0, 5 )
 collide_with_areas = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
