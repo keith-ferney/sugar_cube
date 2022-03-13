@@ -8,7 +8,7 @@ size = 40
 font_data = ExtResource( 2 )
 
 [node name="Level 1" instance=ExtResource( 1 )]
-order = 1
+par = 4
 
 [node name="death" parent="." index="0"]
 tile_data = PoolIntArray( -131060, 1, 0, -131059, 1, 0, -131058, 1, 0, -131057, 1, 0, -131056, 1, 0, -131055, 1, 0, -131054, 1, 0, -131053, 1, 0, -131052, 1, 0, -131051, 1, 0, -131050, 1, 0, -131049, 1, 0, 1310735, 0, 0, 1310736, 0, 196608, 1703936, 0, 0, 2424832, 0, 0, 2752527, 0, 0 )
@@ -69,7 +69,7 @@ margin_top = -567.535
 margin_right = 2104.65
 margin_bottom = -390.535
 custom_fonts/font = SubResource( 1 )
-text = "collect \"placeholder\" and reduce \"jumps\" to get better score."
+text = "collect \"placeholder\" and reduce \"jump\" count to get a better score."
 autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
