@@ -1,12 +1,13 @@
 extends RigidBody2D
 
-var limit = 300
+var limit = 400
 var torque = 1000
-var multiplier = 1
+var multiplier = 2
 var base_charge = limit/4
 var charge = base_charge
 var rotation_speed = 0.05
 var score = 0
+var originalPointerPosition: Vector2
 onready var rotation_nullifier = $rotation_nullifier
 onready var pointer = $rotation_nullifier/Pointer
 onready var chargeSprite = $rotation_nullifier/Charge
@@ -31,9 +32,11 @@ func _physics_process(_delta):
       2: animationPlayer.play("Stage 2")
       3: animationPlayer.play("Stage 3")
     if charge < limit:
+      chargeSprite.scale += Vector2(0.005,0.005)
       charge = charge + multiplier 
 
   elif Input.is_action_just_released("charge"):
+    chargeSprite.scale = Vector2(1,1)
     hide_movement_indicators()
     score +=1
     self.apply_impulse(Vector2(0, 0), Vector2(0, -charge*2).rotated(pointer.get_global_rotation()))

@@ -350,6 +350,7 @@ tile_data = PoolIntArray( -655360, 536870913, 0, -655359, 536870913, 0, -655358,
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 3 )
+volume_db = -21.027
 autoplay = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
