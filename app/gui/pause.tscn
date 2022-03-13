@@ -4,7 +4,7 @@
 [ext_resource path="res://app/gui/base/nav_button.tscn" type="PackedScene" id=2]
 [ext_resource path="res://app/gui/LevelSelect.tscn" type="PackedScene" id=3]
 [ext_resource path="res://app/gui/LevelNavigationButtons.tscn" type="PackedScene" id=4]
-[ext_resource path="res://app/gui/scripts/pause.gd" type="Script" id=5]
+[ext_resource path="res://app/gui/scripts/pause_button.gd" type="Script" id=5]
 
 [node name="Pause Menu" type="Control"]
 pause_mode = 2

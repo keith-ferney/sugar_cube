@@ -15,6 +15,9 @@ func win():
 func death():
   load_pause_state("You Died")
 
+func pause():
+  load_pause_state("Paused")
+
 func load_pause_state(title: String):
   get_tree().paused = 1
   var instance = load("res://app/gui/pause.tscn").instance()
@@ -23,7 +26,8 @@ func load_pause_state(title: String):
   var level = get_tree().root.get_children().pop_back()
   level.add_child(canvas)
   level.get_children().pop_back().add_child(instance)
-  
+
+
 #  get_tree().change_scene("res://app/gui/death.tscn")
 func next_level():
   var nextLevelData = find_level_by_order(currentLevelNode.order + 1)
