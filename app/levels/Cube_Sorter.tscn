@@ -1,9 +1,61 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://app/level_objects/levelBase.tscn" type="PackedScene" id=1]
+[ext_resource path="res://resources/comic.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 40
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 40
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 40
+font_data = ExtResource( 2 )
 
 [node name="Level 2" instance=ExtResource( 1 )]
-order = 2
+order = 0
+par = 1
 
 [node name="bonuce" parent="." index="2"]
 tile_data = PoolIntArray( -655360, 536870913, 0, -655359, 536870913, 0, -655358, 536870913, 0, -655357, 536870913, 0, -655356, 1, 0, -655355, 1, 0, -655354, 1, 0, -655353, 536870913, 0, -655352, 536870913, 0, -655351, 536870913, 0, -655350, 536870913, 0, -655349, 536870913, 0, -655348, 536870913, 0, -655347, 536870913, 0, -655346, 536870913, 0, -655345, 536870913, 0, -589824, 536870913, 0, -589809, 536870913, 0, -524288, 536870913, 0, -524273, 536870913, 0, -458752, 536870913, 0, -458737, 536870913, 0, -393216, 536870913, 0, -393201, 536870913, 0, -327680, 536870913, 0, -327665, 536870913, 0, -262144, 536870913, 0, -262129, 536870913, 0, -196608, 536870913, 0, -196593, 536870913, 0, -131072, 536870913, 0, -131057, 536870913, 0 )
+
+[node name="Label" type="Label" parent="." index="7"]
+margin_left = 288.719
+margin_top = -568.762
+margin_right = 939.719
+margin_bottom = -391.762
+custom_fonts/font = SubResource( 1 )
+text = "hold \"jump\" button to charge jump relese \"jump\" button to
+launch in the arrow diretion"
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label3" type="Label" parent="." index="8"]
+margin_left = 133.0
+margin_top = -377.0
+margin_right = 451.0
+margin_bottom = -140.0
+custom_fonts/font = SubResource( 2 )
+text = "\"jump\" = 
+(a, space, left click, touch screen)"
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label5" type="Label" parent="." index="9"]
+margin_left = 443.855
+margin_top = -194.26
+margin_right = 715.855
+margin_bottom = -74.26
+custom_fonts/font = SubResource( 3 )
+text = "jump in teacup to win! --->"
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}

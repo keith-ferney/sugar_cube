@@ -4,7 +4,7 @@
 
 [node name="Level 1" instance=ExtResource( 1 )]
 difficulty = "hard"
-order = 5
+order = 7
 par = 35
 
 [node name="death" parent="." index="0"]
