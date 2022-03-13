@@ -2,7 +2,7 @@ extends Control
 
 
 
-const navButton = preload("res://app/gui/nav_button.tscn")
+const navButton = preload("res://app/gui/base/nav_button.tscn")
 
 func _ready():
   var levels = LevelManager.get_levels()
