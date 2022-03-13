@@ -1,9 +1,9 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://app/gui/nextButton.gd" type="Script" id=1]
-[ext_resource path="res://app/gui/previousButton.gd" type="Script" id=2]
+[ext_resource path="res://app/gui/scripts/nextButton.gd" type="Script" id=1]
+[ext_resource path="res://app/gui/scripts/previousButton.gd" type="Script" id=2]
 [ext_resource path="res://app/gui/restart.tscn" type="PackedScene" id=3]
-[ext_resource path="res://app/gui/LevelNavigationButtons.gd" type="Script" id=4]
+[ext_resource path="res://app/gui/scripts/LevelNavigationButtons.gd" type="Script" id=4]
 
 [sub_resource type="InputEventAction" id=4]
 action = "ui_accept"

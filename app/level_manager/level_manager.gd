@@ -26,6 +26,7 @@ func death():
   var level = get_tree().root.get_children().pop_back()
   level.add_child(canvas)
   level.get_children().pop_back().add_child(instance)
+
   
 #  get_tree().change_scene("res://app/gui/death.tscn")
 func next_level():

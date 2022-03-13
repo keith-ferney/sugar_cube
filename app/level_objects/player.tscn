@@ -1,10 +1,10 @@
 [gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://images/cube.png" type="Texture" id=1]
-[ext_resource path="res://app/level_objects/player.gd" type="Script" id=2]
+[ext_resource path="res://app/level_objects/scripts/player.gd" type="Script" id=2]
 [ext_resource path="res://images/pointer.png" type="Texture" id=3]
 [ext_resource path="res://images/charge.png" type="Texture" id=4]
-[ext_resource path="res://app/level_objects/Area2D.gd" type="Script" id=5]
+[ext_resource path="res://app/level_objects/scripts/Area2D.gd" type="Script" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 25, 24.5 )
