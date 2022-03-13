@@ -12,9 +12,5 @@ func _ready():
     levelButton.set('scene', level.scene)
     levelButton.set('text', level.name.capitalize())
     $GridContainer.add_child(levelButton)
+    var button = $GridContainer.get_children().pop_back()
       
-func _physics_process(delta):
-  # for button in $GridContainer.get_children():
-  # button.rect_scale = Vector2(0.6,0.6)
-  pass
-    
