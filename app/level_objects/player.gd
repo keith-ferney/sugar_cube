@@ -21,6 +21,7 @@ func _ready():
   hide_movement_indicators()
 
 func _physics_process(_delta):
+  rotation_nullifier.global_rotation = 0
   if rayCaster.is_colliding():
     airJumps = defaultAirJumps
 
@@ -32,7 +33,6 @@ func _physics_process(_delta):
       show_movement_indicators()
       pointer.rotate(rotation_speed)
       chargeSprite.rotate(-rotation_speed*2)
-      rotation_nullifier.global_rotation = 0
       self.apply_central_impulse(-self.linear_velocity * 0.1)
 
       match int(floor(charge / base_charge)):
