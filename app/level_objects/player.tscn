@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://images/cube.png" type="Texture" id=1]
 [ext_resource path="res://app/level_objects/player.gd" type="Script" id=2]
@@ -10,33 +10,6 @@
 extents = Vector2( 25, 24.5 )
 
 [sub_resource type="Animation" id=3]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/path = NodePath(".:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ 0 ]
-}
-tracks/1/type = "value"
-tracks/1/path = NodePath(".:rotation_degrees")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
-"times": PoolRealArray( 0 ),
-"transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ 1.0 ]
-}
-
-[sub_resource type="Animation" id=4]
 resource_name = "Stage 1"
 loop = true
 tracks/0/type = "value"
@@ -52,7 +25,7 @@ tracks/0/keys = {
 "values": [ 0, 1, 0, 1 ]
 }
 
-[sub_resource type="Animation" id=5]
+[sub_resource type="Animation" id=4]
 resource_name = "Stage 2"
 loop = true
 tracks/0/type = "value"
@@ -68,7 +41,7 @@ tracks/0/keys = {
 "values": [ 2, 3, 2, 3 ]
 }
 
-[sub_resource type="Animation" id=6]
+[sub_resource type="Animation" id=5]
 resource_name = "Stage 3"
 loop = true
 tracks/0/type = "value"
@@ -84,10 +57,12 @@ tracks/0/keys = {
 "values": [ 4, 5, 4, 5 ]
 }
 
-[sub_resource type="CircleShape2D" id=7]
+[sub_resource type="CircleShape2D" id=6]
 radius = 13.0358
 
-[node name="Player" type="RigidBody2D" groups=["player"]]
+[node name="Player" type="RigidBody2D" groups=[
+"player",
+]]
 gravity_scale = 3.0
 script = ExtResource( 2 )
 
@@ -135,22 +110,21 @@ autoplay = "Stage 1"
 anims/RESET = SubResource( 3 )
 "anims/Stage 1" = SubResource( 4 )
 "anims/Stage 2" = SubResource( 5 )
-"anims/Stage 3" = SubResource( 6 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( -13.3634, -13.5862 )
-shape = SubResource( 7 )
+shape = SubResource( 6 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
 position = Vector2( 13.1408, -13.5862 )
-shape = SubResource( 7 )
+shape = SubResource( 6 )
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
 position = Vector2( -13.3634, 12.918 )
-shape = SubResource( 7 )
+shape = SubResource( 6 )
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="."]
 position = Vector2( 13.1408, 12.6953 )
-shape = SubResource( 7 )
+shape = SubResource( 6 )
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_Area2D_body_entered"]
