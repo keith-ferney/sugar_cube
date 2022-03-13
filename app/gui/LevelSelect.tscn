@@ -11,17 +11,17 @@ __meta__ = {
 }
 
 [node name="GridContainer" type="GridContainer" parent="."]
-anchor_left = 0.5
-anchor_top = 0.5
+anchor_left = -0.141
+anchor_top = -0.067
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -433.0
-margin_top = -254.0
-margin_right = 719.0
-margin_bottom = 429.0
-rect_scale = Vector2( 0.75, 0.75 )
-size_flags_horizontal = 0
-size_flags_vertical = 0
+margin_left = 208.384
+margin_top = 104.2
+margin_right = 1152.0
+margin_bottom = 564.0
+rect_scale = Vector2( 0.55, 0.55 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
 custom_constants/vseparation = 40
 custom_constants/hseparation = 40
 columns = 2
