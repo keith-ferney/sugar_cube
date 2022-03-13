@@ -10,24 +10,24 @@ func process_level(command):
     call(command)
 
 func win():
-  get_tree().call_group("gui","win")
-  get_tree().paused = 1
-  var instance = load("res://app/gui/winscene.tscn").instance()
-  var canvas = CanvasLayer.new()
-  var level = get_tree().root.get_children().pop_back()
-  level.add_child(canvas)
-  level.get_children().pop_back().add_child(instance)
-  
+  load_pause_state("You Won!")  
 
 func death():
+  load_pause_state("You Died")
+
+func pause():
+  load_pause_state("Paused")
+
+func load_pause_state(title: String):
   get_tree().paused = 1
-  var instance = load("res://app/gui/death.tscn").instance()
+  var instance = load("res://app/gui/pause.tscn").instance()
+  instance.title = title
   var canvas = CanvasLayer.new()
   var level = get_tree().root.get_children().pop_back()
   level.add_child(canvas)
   level.get_children().pop_back().add_child(instance)
 
-  
+
 #  get_tree().change_scene("res://app/gui/death.tscn")
 func next_level():
   var nextLevelData = find_level_by_order(currentLevelNode.order + 1)
@@ -44,10 +44,7 @@ func find_level_by_order(order):
   return null
   
 func get_levels() -> Array:
-  return LevelManager.get_levels_from_path('res://app/levels')
-  
-
-func get_levels_from_path(path):
+    var path = 'res://app/levels'
     var dir = Directory.new()
     var levels = []
     if dir.open(path) == OK:
@@ -68,6 +65,7 @@ func get_levels_from_path(path):
         return levels
     else:
         print("An error occurred when trying to access the path.")
+        return []
         
 class LevelSorter:
   static func sort_by_order(a: LevelData, b: LevelData):

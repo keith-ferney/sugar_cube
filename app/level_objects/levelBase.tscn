@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://resources/spike.tres" type="TileSet" id=1]
 [ext_resource path="res://resources/bounce.tres" type="TileSet" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://app/level_objects/tea_cup.tscn" type="PackedScene" id=7]
 [ext_resource path="res://app/level_objects/player.tscn" type="PackedScene" id=8]
 [ext_resource path="res://app/level_objects/parCounter.tscn" type="PackedScene" id=9]
+[ext_resource path="res://app/gui/Pause_button.tscn" type="PackedScene" id=10]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
@@ -368,6 +369,12 @@ margin_left = -59.488
 margin_top = 581.0
 margin_right = 227.744
 margin_bottom = 644.8
+
+[node name="Button" parent="CanvasLayer" instance=ExtResource( 10 )]
+margin_left = 6.73462
+margin_top = 65.1028
+margin_right = 251.735
+margin_bottom = 198.103
 
 [node name="tea_cup" parent="." instance=ExtResource( 7 )]
 position = Vector2( 824, -168 )
