@@ -5,7 +5,7 @@
 [node name="Level 1" instance=ExtResource( 1 )]
 position = Vector2( 0, -1 )
 difficulty = "hard"
-order = 4
+order = 6
 par = 18
 
 [node name="death" parent="." index="0"]
