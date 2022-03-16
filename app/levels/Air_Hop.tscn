@@ -26,24 +26,26 @@ position = Vector2( 2986.79, -282.629 )
 position = Vector2( -34.746, -97.924 )
 
 [node name="Label2" type="Label" parent="." index="7"]
-margin_left = 575.093
-margin_top = -535.698
-margin_right = 1226.1
-margin_bottom = -337.698
+margin_left = 575.0
+margin_top = -536.0
+margin_right = 1203.0
+margin_bottom = -338.0
 custom_fonts/font = SubResource( 1 )
-text = "hold \"jump\" midair to slow down then relese to double jump"
+text = "charge your jump midair to slow down."
+align = 1
 autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Label4" type="Label" parent="." index="8"]
-margin_left = 2423.01
-margin_top = -556.721
-margin_right = 2897.01
-margin_bottom = -379.721
+margin_left = 2423.0
+margin_top = -557.0
+margin_right = 2758.0
+margin_bottom = -380.0
 custom_fonts/font = SubResource( 1 )
-text = "collect \"placeholder\" and reduce \"jump\" count to get a better score."
+text = "don't forget to grab coins along the way ;D"
+align = 1
 autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false

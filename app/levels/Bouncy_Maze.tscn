@@ -5,7 +5,7 @@
 [node name="Level 3" instance=ExtResource( 1 )]
 difficulty = "hard"
 order = 5
-par = 20
+par = 15
 
 [node name="death" parent="." index="0"]
 tile_data = PoolIntArray( 1310735, 0, 0, 1310736, 0, 196608, 1703936, 0, 0, 2424832, 0, 0, 2752527, 0, 0 )
