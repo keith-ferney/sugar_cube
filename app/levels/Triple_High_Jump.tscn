@@ -3,6 +3,7 @@
 [ext_resource path="res://app/level_objects/levelBase.tscn" type="PackedScene" id=1]
 
 [node name="Level 2" instance=ExtResource( 1 )]
+par = 3
 
 [node name="death" parent="." index="0"]
 tile_data = PoolIntArray( 1310735, 0, 0, 1310736, 0, 196608, 1703936, 0, 0, 2424832, 0, 0, 2752527, 0, 0 )
