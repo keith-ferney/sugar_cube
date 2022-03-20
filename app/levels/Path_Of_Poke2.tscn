@@ -5,7 +5,7 @@
 [node name="Level 1" instance=ExtResource( 1 )]
 position = Vector2( 0, -1 )
 difficulty = "hard"
-order = 6
+order = 18
 par = 18
 
 [node name="death" parent="." index="0"]
@@ -17,8 +17,8 @@ tile_data = PoolIntArray( -1835005, 1, 131076, -1835004, 1, 3, -1835003, 1, 3, -
 [node name="bonuce" parent="." index="2"]
 tile_data = PoolIntArray( -1769459, 1, 0, -1769453, 1, 0, -1769447, 1, 0, -1703923, 1, 0, -1703917, 1, 0, -1703911, 1, 0, -1638387, 1, 0, -1638381, 1, 0, -1638375, 1, 0, -1376243, 1, 0, -1376237, 1, 0, -1376231, 1, 0, -1310707, 1, 0, -1310701, 1, 0, -1310695, 1, 0, -1245171, 1, 0, -1245165, 1, 0, -1245159, 1, 0 )
 
-[node name="tea_cup" parent="." index="5"]
+[node name="tea_cup" parent="." index="6"]
 position = Vector2( 1963.01, -1236.55 )
 
-[node name="Player" parent="." index="6"]
+[node name="Player" parent="." index="7"]
 position = Vector2( 567.672, -415.195 )
