@@ -1,7 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://app/gui/scripts/MainMenuButton.gd" type="Script" id=1]
 [ext_resource path="res://app/gui/scripts/LevelSelect.gd" type="Script" id=2]
+[ext_resource path="res://app/gui/scripts/NextPage.gd" type="Script" id=3]
+[ext_resource path="res://app/gui/scripts/LastPage.gd" type="Script" id=4]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0.52549, 0.592157, 0.780392, 1 )
@@ -12,10 +14,27 @@ bg_color = Color( 0.298039, 0.419608, 0.643137, 1 )
 [sub_resource type="StyleBoxFlat" id=3]
 bg_color = Color( 0.188235, 0.721569, 0.854902, 1 )
 
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.52549, 0.592157, 0.780392, 1 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.298039, 0.419608, 0.643137, 1 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.188235, 0.721569, 0.854902, 1 )
+
 [node name="LevelSelect" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PagesContainer" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -8.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -35,23 +54,36 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="GridContainer" type="GridContainer" parent="."]
-anchor_left = -0.141
-anchor_top = -0.067
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = 208.384
-margin_top = 136.2
-margin_right = 1152.0
-margin_bottom = 538.0
-rect_scale = Vector2( 0.55, 0.55 )
-size_flags_horizontal = 3
-size_flags_vertical = 3
-custom_constants/vseparation = 40
-custom_constants/hseparation = 40
-columns = 2
+[node name="Next Page" type="Button" parent="."]
+margin_left = 690.437
+margin_top = 539.246
+margin_right = 1123.44
+margin_bottom = 666.246
+rect_scale = Vector2( 0.4, 0.4 )
+custom_styles/hover = SubResource( 4 )
+custom_styles/pressed = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "Next Page"
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Last Page" type="Button" parent="."]
+margin_left = 192.768
+margin_top = 541.766
+margin_right = 625.768
+margin_bottom = 668.766
+rect_scale = Vector2( 0.4, 0.4 )
+custom_styles/hover = SubResource( 4 )
+custom_styles/pressed = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "Last Page"
+script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [connection signal="pressed" from="nav_button" to="nav_button" method="_on_nav_button_pressed"]
+[connection signal="pressed" from="Next Page" to="Next Page" method="_on_nav_button_pressed"]
+[connection signal="pressed" from="Last Page" to="Last Page" method="_on_nav_button_pressed"]
