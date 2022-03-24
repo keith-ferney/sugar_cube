@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://app/gui/scripts/Pause.gd" type="Script" id=1]
+
+[node name="Button" type="Button"]
+pause_mode = 2
+margin_right = 245.0
+margin_bottom = 133.0
+rect_scale = Vector2( 0.404213, 0.404213 )
+text = "Pause"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pause" type="Node" parent="."]
+script = ExtResource( 1 )
+
+[connection signal="pressed" from="." to="Pause" method="pause"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://app/level_objects/death_timer.gd" type="Script" id=1]
+[ext_resource path="res://app/level_objects/scripts/death_timer.gd" type="Script" id=1]
 
 [sub_resource type="VisualShaderNodeInput" id=1]
 output_port_for_preview = 0
@@ -55,7 +55,7 @@ show_behind_parent = true
 material = SubResource( 4 )
 anchor_right = 0.195
 anchor_bottom = 0.107
-margin_right = 202.32
+margin_right = 376.32
 margin_bottom = 63.8
 rect_scale = Vector2( 0.5, 0.5 )
 script = ExtResource( 1 )

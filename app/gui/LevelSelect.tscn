@@ -1,8 +1,27 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=11 format=2]
 
-[ext_resource path="res://app/gui/nav_button.tscn" type="PackedScene" id=1]
-[ext_resource path="res://app/gui/LevelSelect.gd" type="Script" id=2]
-[ext_resource path="res://app/level_manager/level_data.tscn" type="PackedScene" id=3]
+[ext_resource path="res://app/gui/scripts/MainMenuButton.gd" type="Script" id=1]
+[ext_resource path="res://app/gui/scripts/LevelSelect.gd" type="Script" id=2]
+[ext_resource path="res://app/gui/scripts/NextPage.gd" type="Script" id=3]
+[ext_resource path="res://app/gui/scripts/LastPage.gd" type="Script" id=4]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.52549, 0.592157, 0.780392, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.298039, 0.419608, 0.643137, 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.188235, 0.721569, 0.854902, 1 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0.52549, 0.592157, 0.780392, 1 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0.298039, 0.419608, 0.643137, 1 )
+
+[sub_resource type="StyleBoxFlat" id=6]
+bg_color = Color( 0.188235, 0.721569, 0.854902, 1 )
 
 [node name="LevelSelect" type="Control"]
 anchor_right = 1.0
@@ -12,298 +31,59 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="GridContainer" type="GridContainer" parent="."]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -433.0
-margin_top = -254.0
-margin_right = 719.0
-margin_bottom = 429.0
-rect_scale = Vector2( 0.75, 0.75 )
-size_flags_horizontal = 0
-size_flags_vertical = 0
-custom_constants/vseparation = 40
-custom_constants/hseparation = 40
-columns = 7
+[node name="PagesContainer" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -8.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="nav_button" parent="GridContainer" instance=ExtResource( 1 )]
-margin_right = 127.0
-margin_bottom = 127.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
+[node name="nav_button" type="Button" parent="."]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 508.0
+margin_bottom = 135.0
+rect_scale = Vector2( 0.5, 0.5 )
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 2 )
+custom_styles/normal = SubResource( 3 )
+text = " Main Menu "
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="nav_button2" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 167.0
-margin_right = 294.0
-margin_bottom = 127.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
+[node name="Next Page" type="Button" parent="."]
+margin_left = 690.437
+margin_top = 539.246
+margin_right = 1123.44
+margin_bottom = 666.246
+rect_scale = Vector2( 0.4, 0.4 )
+custom_styles/hover = SubResource( 4 )
+custom_styles/pressed = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "Next Page"
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="nav_button3" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 334.0
-margin_right = 461.0
-margin_bottom = 127.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
+[node name="Last Page" type="Button" parent="."]
+margin_left = 192.768
+margin_top = 541.766
+margin_right = 625.768
+margin_bottom = 668.766
+rect_scale = Vector2( 0.4, 0.4 )
+custom_styles/hover = SubResource( 4 )
+custom_styles/pressed = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
+text = "Last Page"
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
-[node name="nav_button4" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 501.0
-margin_right = 628.0
-margin_bottom = 127.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button5" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 668.0
-margin_right = 795.0
-margin_bottom = 127.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button6" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 835.0
-margin_right = 962.0
-margin_bottom = 127.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button7" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 1002.0
-margin_right = 1129.0
-margin_bottom = 127.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button8" parent="GridContainer" instance=ExtResource( 1 )]
-margin_top = 167.0
-margin_right = 127.0
-margin_bottom = 294.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button9" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 167.0
-margin_top = 167.0
-margin_right = 294.0
-margin_bottom = 294.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button10" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 334.0
-margin_top = 167.0
-margin_right = 461.0
-margin_bottom = 294.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button11" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 501.0
-margin_top = 167.0
-margin_right = 628.0
-margin_bottom = 294.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button12" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 668.0
-margin_top = 167.0
-margin_right = 795.0
-margin_bottom = 294.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button13" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 835.0
-margin_top = 167.0
-margin_right = 962.0
-margin_bottom = 294.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button14" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 1002.0
-margin_top = 167.0
-margin_right = 1129.0
-margin_bottom = 294.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button15" parent="GridContainer" instance=ExtResource( 1 )]
-margin_top = 334.0
-margin_right = 127.0
-margin_bottom = 461.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button16" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 167.0
-margin_top = 334.0
-margin_right = 294.0
-margin_bottom = 461.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button17" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 334.0
-margin_top = 334.0
-margin_right = 461.0
-margin_bottom = 461.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button18" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 501.0
-margin_top = 334.0
-margin_right = 628.0
-margin_bottom = 461.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button19" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 668.0
-margin_top = 334.0
-margin_right = 795.0
-margin_bottom = 461.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button20" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 835.0
-margin_top = 334.0
-margin_right = 962.0
-margin_bottom = 461.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button21" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 1002.0
-margin_top = 334.0
-margin_right = 1129.0
-margin_bottom = 461.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button22" parent="GridContainer" instance=ExtResource( 1 )]
-margin_top = 501.0
-margin_right = 127.0
-margin_bottom = 628.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button23" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 167.0
-margin_top = 501.0
-margin_right = 294.0
-margin_bottom = 628.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button24" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 334.0
-margin_top = 501.0
-margin_right = 461.0
-margin_bottom = 628.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button25" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 501.0
-margin_top = 501.0
-margin_right = 628.0
-margin_bottom = 628.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button26" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 668.0
-margin_top = 501.0
-margin_right = 795.0
-margin_bottom = 628.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button27" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 835.0
-margin_top = 501.0
-margin_right = 962.0
-margin_bottom = 628.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="nav_button28" parent="GridContainer" instance=ExtResource( 1 )]
-margin_left = 1002.0
-margin_top = 501.0
-margin_right = 1129.0
-margin_bottom = 628.0
-rect_min_size = Vector2( 127, 127 )
-size_flags_horizontal = 4
-size_flags_vertical = 4
-text = "1"
-
-[node name="LevelData" parent="." instance=ExtResource( 3 )]
-level_data = [ {
-"difficulty": "Hard",
-"file": "res",
-"level_name": "",
-"order": 1
-} ]
+[connection signal="pressed" from="nav_button" to="nav_button" method="_on_nav_button_pressed"]
+[connection signal="pressed" from="Next Page" to="Next Page" method="_on_nav_button_pressed"]
+[connection signal="pressed" from="Last Page" to="Last Page" method="_on_nav_button_pressed"]
