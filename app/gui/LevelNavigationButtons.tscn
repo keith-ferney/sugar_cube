@@ -1,0 +1,65 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://app/gui/scripts/nextButton.gd" type="Script" id=1]
+[ext_resource path="res://app/gui/scripts/previousButton.gd" type="Script" id=2]
+[ext_resource path="res://app/gui/restart.tscn" type="PackedScene" id=3]
+[ext_resource path="res://app/gui/scripts/LevelNavigationButtons.gd" type="Script" id=4]
+
+[sub_resource type="InputEventAction" id=4]
+action = "ui_accept"
+
+[sub_resource type="ShortCut" id=5]
+shortcut = SubResource( 4 )
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.52549, 0.592157, 0.780392, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.298039, 0.419608, 0.643137, 1 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.188235, 0.721569, 0.854902, 1 )
+
+[node name="Level Navigation" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="restart" parent="." instance=ExtResource( 3 )]
+shortcut = SubResource( 5 )
+
+[node name="previous" type="Button" parent="."]
+margin_left = 24.0
+margin_top = 464.0
+margin_right = 424.0
+margin_bottom = 591.0
+rect_scale = Vector2( 0.75, 0.75 )
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 2 )
+custom_styles/normal = SubResource( 3 )
+text = "Previous"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="next" type="Button" parent="."]
+margin_left = 672.0
+margin_top = 464.0
+margin_right = 1072.0
+margin_bottom = 591.0
+rect_scale = Vector2( 0.75, 0.75 )
+custom_styles/hover = SubResource( 1 )
+custom_styles/pressed = SubResource( 2 )
+custom_styles/normal = SubResource( 3 )
+text = "Next"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="previous" to="previous" method="_on_nav_button_pressed"]
+[connection signal="pressed" from="next" to="next" method="_on_nav_button_pressed"]

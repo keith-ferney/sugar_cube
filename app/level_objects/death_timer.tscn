@@ -1,11 +1,63 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://app/level_objects/death_timer.gd" type="Script" id=1]
+[ext_resource path="res://app/level_objects/scripts/death_timer.gd" type="Script" id=1]
+
+[sub_resource type="VisualShaderNodeInput" id=1]
+output_port_for_preview = 0
+input_name = "alpha"
+
+[sub_resource type="VisualShaderNodeInput" id=2]
+output_port_for_preview = 0
+input_name = "color"
+
+[sub_resource type="VisualShader" id=3]
+code = "shader_type canvas_item;
+
+
+
+void vertex() {
+// Output:0
+
+}
+
+void fragment() {
+// Input:4
+	vec3 n_out4p0 = COLOR.rgb;
+
+// Input:3
+	float n_out3p0 = COLOR.a;
+
+// Output:0
+	COLOR.rgb = n_out4p0;
+	COLOR.a = n_out3p0;
+
+}
+
+void light() {
+// Output:0
+
+}
+"
+mode = 1
+flags/light_only = false
+nodes/fragment/0/position = Vector2( 540, 180 )
+nodes/fragment/3/node = SubResource( 1 )
+nodes/fragment/3/position = Vector2( 160, 340 )
+nodes/fragment/4/node = SubResource( 2 )
+nodes/fragment/4/position = Vector2( 180, 120 )
+nodes/fragment/connections = PoolIntArray( 3, 0, 0, 1, 4, 0, 0, 0 )
+
+[sub_resource type="ShaderMaterial" id=4]
+shader = SubResource( 3 )
 
 [node name="death_timer" type="Control"]
-margin_right = 150.0
-margin_bottom = 20.0
-rect_scale = Vector2( 5, 5 )
+show_behind_parent = true
+material = SubResource( 4 )
+anchor_right = 0.195
+anchor_bottom = 0.107
+margin_right = 376.32
+margin_bottom = 63.8
+rect_scale = Vector2( 0.5, 0.5 )
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -16,10 +68,20 @@ wait_time = 60.0
 one_shot = true
 autostart = true
 
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 736.0
+margin_bottom = 128.0
+rect_scale = Vector2( 0.778907, 1.03662 )
+color = Color( 0, 0, 0, 0.498039 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="Label" type="Label" parent="."]
-margin_right = 40.0
-margin_bottom = 14.0
-text = "Time: %i"
+margin_left = 32.0
+margin_right = 416.0
+margin_bottom = 127.0
+text = "Time: 00:00"
 __meta__ = {
 "_edit_use_anchors_": false
 }
