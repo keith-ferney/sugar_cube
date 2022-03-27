@@ -2,13 +2,13 @@ extends Node
 
 
 
-func _process(delta):
+func _physics_process(delta):
   if Input.is_action_just_pressed("ui_cancel"):
     pause()
 
 func pause():
-  var paused = get_tree().paused
-  if paused:
+  
+  if get_tree().paused:
     get_tree().paused = false # fix
   else:
     $"/root/LevelManager".pause()

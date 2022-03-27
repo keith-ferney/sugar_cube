@@ -13,6 +13,7 @@ __meta__ = {
 }
 
 [node name="Pause" type="Node" parent="."]
+pause_mode = 2
 script = ExtResource( 1 )
 
 [connection signal="pressed" from="." to="Pause" method="pause"]
