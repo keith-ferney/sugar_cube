@@ -19,32 +19,34 @@ tile_data = PoolIntArray( -327671, 1, 131076, -327670, 1, 3, -327669, 1, 3, -327
 [node name="bonuce" parent="." index="2"]
 tile_data = PoolIntArray( -851973, 1, 0, -851972, 1, 0, -851971, 1, 0, -851970, 1, 0, -851969, 1, 0, -917504, 1, 0, -917503, 1, 0, -917502, 1, 0, -917501, 1, 0, -917500, 1, 0, -917499, 1, 0, -917498, 1, 0, -917497, 1, 0, -917496, 1, 0, -917495, 1, 0, -917494, 1, 0, -917493, 1, 0, -917492, 1, 0, -917491, 1, 0, -917490, 1, 0, -917489, 1, 0, -917488, 1, 0, -917487, 1, 0, -917486, 1, 0, -917485, 1, 0, -917484, 1, 0, -917483, 1, 0, -917482, 1, 0, -917481, 1, 0, -917480, 1, 0, -917479, 1, 0, -917478, 1, 0, -917477, 1, 0, -917476, 1, 0, -917475, 1, 0, -917474, 1, 0, -917473, 1, 0, -917472, 1, 0, -917471, 1, 0, -917470, 1, 0, -917469, 1, 0, -917468, 1, 0, -917467, 1, 0, -917466, 1, 0, -917465, 1, 0, -917464, 1, 0, -917463, 1, 0, -917462, 1, 0, -917461, 1, 0, -917460, 1, 0, -917459, 1, 0, -917458, 1, 0, -917457, 1, 0, -917456, 1, 0, -917455, 1, 0, -786437, 1, 0, -851919, 1, 0, -720901, 1, 0, -786383, 1, 0, -655365, 1, 0, -720847, 1, 0, -589829, 1, 0, -655311, 1, 0, -524293, 1, 0, -589775, 1, 0, -458757, 1, 0, -524239, 1, 0, -393221, 1, 0, -458703, 1, 0, -327685, 1, 0, -393167, 1, 0, -262149, 1, 0, -327631, 1, 0, -196613, 1, 0, -262095, 1, 0, -131077, 1, 0, -196559, 1, 0, -65541, 1, 0, -131023, 1, 0 )
 
-[node name="tea_cup" parent="." index="5"]
+[node name="tea_cup" parent="." index="6"]
 position = Vector2( 2986.79, -282.629 )
 
-[node name="Player" parent="." index="6"]
-position = Vector2( -34.746, -97.924 )
-
 [node name="Label2" type="Label" parent="." index="7"]
-margin_left = 575.093
-margin_top = -535.698
-margin_right = 1226.1
-margin_bottom = -337.698
+margin_left = 575.0
+margin_top = -536.0
+margin_right = 1203.0
+margin_bottom = -338.0
 custom_fonts/font = SubResource( 1 )
-text = "hold \"jump\" midair to slow down then relese to double jump"
+text = "charge your jump midair to slow down."
+align = 1
 autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Label4" type="Label" parent="." index="8"]
-margin_left = 2423.01
-margin_top = -556.721
-margin_right = 2897.01
-margin_bottom = -379.721
+margin_left = 2423.0
+margin_top = -557.0
+margin_right = 2758.0
+margin_bottom = -380.0
 custom_fonts/font = SubResource( 1 )
-text = "collect \"placeholder\" and reduce \"jump\" count to get a better score."
+text = "don't forget to grab coins along the way ;D"
+align = 1
 autowrap = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Player" parent="." index="9"]
+position = Vector2( -34.746, -97.924 )
